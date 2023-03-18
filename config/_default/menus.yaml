@@ -1,0 +1,119 @@
+# Navigation Links
+#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
+#     desired widget in your `content/home/` folder.
+#   The weight parameter defines the order that the links will appear in.
+
+main:
+  - name: Home
+    weight: 10
+    identifier: Home
+  - name: About
+    url: '#about'
+    weight: 11
+    parent: Home
+  - name: News
+    weight: 20
+    identifier: News
+  - name: Blog
+    url: '#posts'
+    weight: 22
+    parent: News
+  - name: Topics
+    url: '#tags'
+    weight: 23
+    parent: News   
+  - name: Collections
+    url: '#collections'
+    weight: 30
+    identifier: Collections
+  - name: Overview
+    url: '#collections'
+    weight: 31
+    parent: Collections
+  - name: Music
+    url:  ../collections/music/
+    weight: 32
+    parent: Collections
+  - name: Photography
+    url: ../collections/photography/
+    weight: 33
+    parent: Collections
+  - name: Prints
+    url:  ../collections/print/
+    weight: 34
+    parent: Collections
+  - name: Media
+    url: '#media'
+    weight: 40
+    identifier: Media
+  - name: Overview
+    url: '#media'
+    weight: 41
+    parent: Media
+  - name: Images
+    url: ../media/images/
+    weight: 42
+    parent: Media
+  - name: Sound recordings
+    url: ../media/sound_recordings/
+    weight: 43
+    parent: Media
+  - name: Text
+    url: ../media/text/
+    weight: 44
+    parent: Media
+  - name: Video
+    url: ../media/video/
+    weight: 45
+    parent: Media
+  - name: Solutions
+    url: '#services'
+    weight: 50
+    identifier: Solutions
+  - name: Projects
+    url: '#projects'
+    weight: 60
+    identifier: Projects
+  - name: Overview
+    url: '#projects'
+    weight: 51
+    parent: Projects
+  - name: Digital Observatory Labs
+    url: '#projects'
+    weight: 52
+    parent: Projects
+#  - name: Publications
+#    url: '#featured'
+#    weight: 50
+#    identifier: Publications
+#  - name: Featured
+#    url: '#featured'
+#    weight: 50
+#    parent: Publications
+#  - name: All Publications
+#    url: '#publications'
+#    weight: 52
+#    parent: Publications
+  - name: Contributors
+    url: '#contributors'
+    weight: 70
+    identifier: Contributors
+  - name: Contact
+    url: '#contact'
+    weight: 90
+    identifier: Contact
+  - name: Get in touch
+    url: '#contact'
+    weight: 91
+    parent: Contact
+  - name: Public talks
+    url: '#talks'
+    weight: 92
+    parent: Contact
+
+# Link to a PDF of your resume/CV from the menu.
+# To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
+#  - name: CV
+#    url: uploads/resume.pdf
+#    weight: 70
+
