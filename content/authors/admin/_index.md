@@ -1,6 +1,6 @@
 ---
 # Display name
-title: OpenCollections
+title: Open Collections Network
 
 # Is this the primary user of the site?
 superuser: true
@@ -43,9 +43,21 @@ email: ""
 highlight_name: false
 ---
 
-OpenCollections is a new collaborative platform developed by Reprex.  Until now, we have been helping with the collection, processing, linking and collective use of open data.  We are now extending our services to book, still images, sound and video recordings. We extend open data with open culture and open science, and the management of open data to open knowledge management.
+The `Open Collections Network` is a new open collaboration supported by an open digital platform for 📷 🎞 born digital and digital surrogate still images 🎵 💿 music works and sound recordings 📜 📚 libraries of source texts 📽📀 audiovisual assets.
 
+We extend our [Digital Music Observatory](https://music.dataobservatory.eu/) and the [Cultural & Creative Sectors Industries Observatory](https://ccsi.dataobservatory.eu/) open data collaborations with open culture and open science, and the management of open data to open knowledge management.
 
-{{< icon name="hand-point-right" pack="fas" >}}Get involved in {{< staticref  "/#services" "newtab"  >}}services{{< /staticref >}}: our [ongoing projects](/#projects), team of [contributors](/#contributors), [open-source libraries](/#software) and use our data for publications. See some [use cases](/#featured).
+{{< spoiler text="✋🏾 Avoid technological monopolies" >}}
+Learn to use and improve open source solutions that are suitable for small organizations without a dedicated IT function. 
+{{< /spoiler >}} 
+{{< spoiler text="🛞 Stop reinventing the wheel" >}}
+Use open-source, transparent automation for repeating tasks, particularly to make your inventory books machine-readable on global platforms without error. 
+{{< /spoiler >}}
+{{< spoiler text="🧩 Collaborate to reach scale" >}}Use open digital platforms to reach joint independent volumes and weight on proprietary, often monopolistic global platforms.
+{{< /spoiler >}}
+{{< spoiler text="🖇️ Link open data" >}}Connect small catalogues, small documentation, and small inventory books into large, interlinked, collective ones to become competitive with big data and large data monopolies.
+{{< /spoiler >}}
+{{< spoiler text="📈 Use algorithms that work for you, not against you" >}}Use trustworthy data and AI to protect yourself against big data and algorithms that work against you.
+{{< /spoiler >}}
 
-{{< icon name="phone" pack="fas" >}}Contact {{< staticref "/#contact" "newtab" >}}us{{< /staticref >}}.
+{{< icon name="hand-point-right" pack="fas" >}}Get involved in our {{< staticref  "/project/crea-innovlab-2023" "newtab"  >}}Data Observatory Labs{{< /staticref >}} and {{< icon name="phone" pack="fas" >}}{{< staticref "/#contact" "newtab" >}}contact us{{< /staticref >}}.

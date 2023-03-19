@@ -16,11 +16,8 @@ subtitle = "Join our open collaboration team as a [data curator](/authors/curato
   user_groups = ["developers", "data curators", "service development team", "institutional partners", "join us"]
 
 [design]
-  # Show user's social networking links? (true/false)
   show_social = false
-
-  # Show user's interests? (true/false)
-  show_interests = true
+  show_interests = false
 
 [design.background]
   # Apply a background color, gradient, or image.
