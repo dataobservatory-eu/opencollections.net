@@ -32,6 +32,8 @@ content:
       tag: Film
     - name: Books & Publications
       tag: Books
+    - name: Use case
+      tag: Open Foto Ateliers
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.
