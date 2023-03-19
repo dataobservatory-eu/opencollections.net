@@ -115,8 +115,6 @@ We connect the inventory items to a future-proof location: geocoordinates, build
 
 The original building of 61 Baross street (in the 19th century: Stáczió utcza) was destroyed. Budapest grew significantly since Ede Schmidt worked here, and the former working class district is currently on the edge of the core downtown area surrounded by the Nagykörút ring.
 
-{{< figure src="/album/fabp-case-study/1062-Baross-u-61_Arcanum_1903.webp" caption="" numbered="false" >}}
-
 <iframe width="700" height="394" src="https://maps.arcanum.com/en/map/budapest-1903/embed/?bbox=2119702.78658315%2C6020170.410857076%2C2131904.047223171%2C6024957.279753435&map-list=1&layers=98" frameborder="0" allowfullscreen></iframe><small><p>Arcanum, a private company, accidentally seated in Budapest, provides excellent services to various European archives, maintains a historical, but not open map service called <a href="https://maps.arcanum.com/en/" target="_blank">Europe in the XIX. century </a>. We will provide links (but not reused content) from such specialist databases. Following <a href="https://maps.arcanum.com/en/map/budapest-1903/?bbox=2122469.5230559227%2C6022028.7193605155%2C2123994.680635925%2C6022627.077972561&map-list=1&layers=98" target="_blank">this link</a> you can check out this location on various maps between 1775 and 1941 as if you were browsing Open Street Maps or Google Maps.</p></small>
 
 ### Database
