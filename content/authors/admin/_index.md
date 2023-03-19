@@ -6,7 +6,7 @@ title: Open Collections Network
 superuser: true
 
 # Role/position/tagline
-role: Linked Open Collections
+role: ""
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -44,10 +44,15 @@ email: ""
 highlight_name: false
 ---
 
-The **Open Collections Network** is a new open collaboration supported by an open digital platform for 🎵 💿 `Open Music Collections`  📷 🎞  `Open Photography Collections` 📜 📚 `Open Print Collections` 📽📀 `Open Video Collections`. 
+The **Open Collections Network** is a new open collaboration.  We extend our [Digital Music Observatory](https://music.dataobservatory.eu/) and the [Cultural & Creative Sectors Industries Observatory](https://ccsi.dataobservatory.eu/) open data collaborations with open culture and open science, and the management of open data to open knowledge management.
+
+🎵 💿 `Open Music Collections`</br>
+📷 🎞  `Open Photography Collections`</br>
+📜 📚 `Open Print Collections`</br>
+📽📀 `Open Video Collections`</br>
 
 {{< icon name="hand-point-right" pack="fas" >}}Use case: {{< staticref  "/collections/openfotoateliers/" "newtab"  >}}Open Foto Ateliers{{< /staticref >}}.
 
-We extend our [Digital Music Observatory](https://music.dataobservatory.eu/) and the [Cultural & Creative Sectors Industries Observatory](https://ccsi.dataobservatory.eu/) open data collaborations with open culture and open science, and the management of open data to open knowledge management.
+
 
 {{< icon name="hand-point-right" pack="fas" >}}Take our [invitation](../post/2023-03-20_invitation-open-collections/) and get involved in our {{< staticref  "/project/crea-innovlab-2023" "newtab"  >}}Data Observatory Labs{{< /staticref >}} project preparations.
