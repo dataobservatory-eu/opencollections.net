@@ -5,7 +5,7 @@ subtitle: Open Print Collections
 
 # Date this page was created.
 date: 2023-03-18T19:00:00+01:00
-lastmod: 2023-03-18T19:00:00+01:00
+lastmod: 2023-03-19T15:00:00+01:00
 
 # Project summary to display on homepage.
 summary: ""
@@ -37,7 +37,7 @@ links:
 image:
   caption: "Print: Scruffs Vintage Punk Rock Flyers ([archive.org](https://archive.org/details/scruffsvintagepunkrockflyers))"
   focal_point: "Smart"
-  preview_only: true
+  preview_only: false
 ---
 
 Our `Open Print Collections` store digital files—`born digital` flyers, documents, publications (not published as a book or journal article), and `digital surrogates` of analogue prints,  graphic posters, engravings and lithographs, ex librises and graphics for special occasions, loose-leaf albums, picture postcards, text posters and leaflets, obituaries;  catalogue them to a high standard, and connect them to locations, buildings, people and other things via linked open data (semantic web) techniques.  Whenever possible, we aim to make a preview (low resolution) or a high-resolution digital copy available. 

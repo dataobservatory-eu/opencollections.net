@@ -42,9 +42,13 @@ main:
     url:  ../collections/print/
     weight: 34
     parent: Collections
+  - name: Video
+    url:  ../collections/video/
+    weight: 35
+    parent: Collections
   - name: "Use case: Open Foto Ateliers"
     url:  ../collections/openfotoateliers/
-    weight: 34
+    weight: 39
     parent: Collections
   - name: Media
     url: '#media'
