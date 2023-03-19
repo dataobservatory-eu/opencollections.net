@@ -28,11 +28,8 @@ social:
   link: https://github.com/dataobservatory-eu
 - icon: linkedin
   icon_pack: fab
-  link:
-- icon: circle-info
-  icon_pack: fas
-  name: Case study
-  url: https://www.linkedin.com/company/68855596/
+  link: https://www.linkedin.com/company/68855596/
+
 
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/media/resume.pdf`, enable `ai` icons in `params.toml`, 
@@ -55,6 +52,6 @@ The **Open Collections Network** is a new open collaboration.  We extend our [Di
 📜 📚 `Open Print Collections`</br>
 📽📀 `Open Video Collections`</br>
 
-{{< icon name="hand-point-right" pack="fas" >}}Use case: {{< staticref  "/collections/openfotoateliers/" "newtab"  >}}Open Foto Ateliers{{< /staticref >}}.
+{{< icon name="hand-point-right" pack="fas" >}}Use cases: {{< staticref  "/collections/openfotoateliers/" "newtab"  >}}Open Foto Ateliers{{< /staticref >}}, [Linking Small Prints](https://www.opencollections.net/post/2023-03-20_small_prints/).
 
 {{< icon name="hand-point-right" pack="fas" >}}Take our [invitation](../post/2023-03-20_invitation-open-collections/) and get involved in our {{< staticref  "/project/crea-innovlab-2023" "newtab"  >}}Data Observatory Labs{{< /staticref >}} project preparations.

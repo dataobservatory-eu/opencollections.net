@@ -25,8 +25,12 @@ links:
   name: Cultural & Creative Sectors Industries Observatory
 - icon: circle-info
   icon_pack: fas
-  name: Case study
-  url: https://www.linkedin.com/company/68855596/
+  name: "Case study: Open Foto Ateliers"
+  url: ../collections/openfotoateliers/
+- icon: circle-info
+  icon_pack: fas
+  name: "Case study: Linked Small Prints"
+  url: ../post/2023-03-20_small_prints/
 
 # Links (optional).
 url_pdf: ""

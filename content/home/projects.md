@@ -27,12 +27,10 @@ content:
   filter_button:
     - name: All
       tag: '*'
-    - name: Monitoring
-      tag: Automated monitoring
-    - name: Greenwashing
-      tag: Greenwashing
-    - name: Zero Price Platforms
-      tag: Zero price platforms
+    - name: Digital Observatory Labs
+      tag: Digital Observatory Labs
+    - name: Listen Local Photography Collection
+      tag: Listen Local
 
 
 design:

@@ -11,7 +11,7 @@ lastmod: 2023-03-10T17:18:00+01:00
 summary: "We bring data-, sustainability-, rights management innovation, and novel distribution models nearer to the grassroots level of creation."
 
 # Tags: can be used for filtering projects.
-tags: ["Data Observatory Labs", "Innovation", "Eviota", "Survey harmonization", "music", "film"]
+tags: ["Data Observatory Labs"]
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -60,7 +60,7 @@ image:
 slides: "crea-innovlab-2023"
 ---
 
-<td style="text-align: center;">{{< figure src="/img/blogposts_2023/data_observatory_lab.webp" caption="Check out our [slides](/slides/crea-innovlab-2023/). We are still looking for certain [partners](/project/crea-innovlab-2023/#potential-partners)." numbered="false" >}}</td>
+<td style="text-align: center;">{{< figure src="img/blogposts_2023/data_observatory_lab.webp" caption="Check out our [slides](/slides/crea-innovlab-2023/). We are still looking for certain [partners](/project/crea-innovlab-2023/#potential-partners)." numbered="false" >}}</td>
 
 We want to build a network of Innovation Labs, connecting labs and businesses that bring these novel scientific and innovation results nearer to civil society actors, individual creators, and microenterprises in services. We bring data-, sustainability-, rights management innovation, and novel distribution models nearer to the grassroots level of creation. We want to transform scientific and technical development into business development available for small creative organizations without a data engineering/science function.
 

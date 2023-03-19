@@ -11,6 +11,10 @@ main:
     url: '#about'
     weight: 11
     parent: Home
+  - name: Collaboration invitation
+    url: https://www.opencollections.net/post/2023-03-20_invitation-open-collections/
+    weight: 12
+    parent: Home
   - name: News
     weight: 20
     identifier: News
@@ -70,7 +74,7 @@ main:
     url: ../media/text/
     weight: 44
     parent: Media
-  - name: Video
+  - name: Audiovisual
     url: ../media/video/
     weight: 45
     parent: Media

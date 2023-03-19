@@ -93,17 +93,23 @@ We do not have yet a photograph of `Schmidt Ede fényképészeti műterme` yet.
 
 
 ### Other related small prints
+
+
+
 {{% callout note %}}
 Other related small prints, `connected to` the other collections, such as advertisements of the photographers or their ateliers (companies) in the collection. {{% /callout %}}
 
 
 ### Now & Then 
-{{% callout note %}}
-A modern, Free Cultural Work licensed photograph of the current state of the atelier, its building, the building that replaced the original location, and the streetview of the place. 
+<a data-flickr-embed="true" data-footer="true" data-context="true" href="https://www.flickr.com/photos/197707958@N02/52757981943/in/dateposted-public/" title="Baross 61"><img src="https://live.staticflickr.com/65535/52757981943_e95b06e82f_z.jpg" width="712" height="475" alt="Baross 61"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+{{% callout note %}}A modern, Free Cultural Work licensed photograph of the current state of the atelier, its building, the building that replaced the original location, and the streetview of the place. 
 {{% /callout %}}
 
 
 {{< figure src="/album/fabp-case-study/1062-baross-u-61_GoogeStreetView_2022-04.png" caption="We will connect the Open Collections websites to the [The Maps Embed API](https://developers.google.com/maps/documentation/embed/get-started) which will provide periodically refreshed street views of the locations. Because the reuse of the Google Street View images is problematic, we suggest to create a new collections of current views under the [Free Cultural Works](https://creativecommons.org/share-your-work/public-domain/freeworks/) Creative Commons license." numbered="false" >}}
+
+
 
 ### Gelocational and cadastrial data
 
