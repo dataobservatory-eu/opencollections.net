@@ -91,8 +91,12 @@ main:
     weight: 51
     parent: Projects
   - name: Digital Observatory Labs
-    url: '#projects'
+    url: ../project/crea-innovlab-2023/
     weight: 52
+    parent: Projects
+  - name: Listen Local Photography
+    url: ../project/listen-local-photography/
+    weight: 53
     parent: Projects
 #  - name: Publications
 #    url: '#featured'

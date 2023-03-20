@@ -28,7 +28,7 @@ tags: ["Listen Local", "Photography", "Music"]
 external_link: ""
 
 # Slides (optional).
-slides: ""
+slides: "listen-local-photography"
 
 # Links (optional).
 url_pdf: ""

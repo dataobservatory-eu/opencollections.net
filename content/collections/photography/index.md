@@ -51,6 +51,8 @@ image:
   focal_point: "Smart"
   preview_only: true
   
+slides: open-collections-network
+  
 ---
 
 <a data-flickr-embed="true" data-footer="false" href="https://www.flickr.com/photos/antaldaniel/7088757485/in/album-72157629477413164/" title="Vintage colors before the war"><img src="https://live.staticflickr.com/7250/7088757485_55dd8cc4f2_c.jpg" width="567" height="800" alt="Vintage colors before the war"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>

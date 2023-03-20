@@ -25,11 +25,12 @@ url_video: ""
 url_code: ""
 
 # Custom links (optional).
-# Featured image
 # To use, add an image named `featured.jpg/png` to your project's folder. 
 image:
   caption: "Photo: [Sašo Tušar](https://unsplash.com/photos/QtgGYlug6Cw?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)"
   focal_point: "Smart"
+
+slides: open-collections-network  
 ---
 
 Our `Open Music Collections` store various formats of music works and their sound recordings—‘born digital’ items like midi files and digital sound recordings and ‘digital surrogates’ (digitised sheet music or digitised analogue media—, catalogue them to a high standard, and connect them to locations, buildings, people and other things via linked open data (semantic web) techniques.  Whenever possible, we aim to make a preview (low resolution) or a high-resolution digital copy available. 

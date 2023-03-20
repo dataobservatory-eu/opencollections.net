@@ -25,8 +25,7 @@ links:
 external_link: ""
 
 # Slides (optional).
-#   Otherwise, set `slides: ""`.
-slides: ""
+slides: open-collections-network
 
 # Links (optional).
 url_pdf: ""

@@ -18,7 +18,7 @@ tags: ["Photography", "Photographer", "Atelier", "Photographic Studio", "Budapes
 external_link: ""
 
 # Slides (optional).
-slides: ""
+slides: "openfotoateliers"
 
 # Links (optional).
 url_pdf: ""
