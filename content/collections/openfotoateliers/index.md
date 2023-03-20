@@ -70,9 +70,7 @@ Early private photographs were collected in photographic ateliers in the target 
 
 
 ### Reverse side collections
-{{% callout note %}}
-Mounted early photography's reverse sides usually contain information about the photographer, the atelier, and the photograph's subject.  Late 19th-century and early 20th-century reverse mounts can be considered to be valuable small print design objects of their own. 
-{{% /callout %}}
+{{% callout note %}}Mounted early photography's reverse sides usually contain information about the photographer, the atelier, and the photograph's subject.  Late 19th-century and early 20th-century reverse mounts can be considered to be valuable small print design objects of their own. {{% /callout %}}
 
 {{< figure src="/album/fabp-case-study/fortepan_81342.jpg" caption="Baross utca 61., Schmidt Ede fényképészeti műterme. (Historic name: Stáczió utcza or ucca) Fortepan [81342](https://fortepan.hu/hu/photos/?id=81342)" numbered="false" >}}
 

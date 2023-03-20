@@ -1,6 +1,6 @@
 ---
 title: Linking Open Small Prints
-subtitle:  
+subtitle:  A case study for open linked archives that place various digital cultural objects on useful knowledge graph
 
 # Summary for listings and search engines
 summary: 
@@ -11,8 +11,8 @@ authors: ["admin"]
 projects: ""
 
 # Date published
-date: "2023-03-19T09:00:00+01:00"
-lastmod: "2023-03-19T09:19:00+01:00"
+date: "2023-03-20T09:00:00+01:00"
+lastmod: "2023-03-20T09:19:00+01:00"
 
 # Is this an unpublished draft?
 draft: false

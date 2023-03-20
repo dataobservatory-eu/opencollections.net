@@ -24,10 +24,6 @@ slides: ""
 authors: ["admin"]
 
 links:
-- icon: mastodon
-  icon_pack: fab
-  name: "@reprex@mastodon.nl"
-  url: https://mastodon.nl/web/@reprex/
 - icon: linkedin
   icon_pack: fab
   name: Digital Music Observatory
@@ -36,13 +32,13 @@ links:
   icon_pack: fab
   name: Cult Creative Sect Industries Obs
   url: https://www.linkedin.com/company/79286750/
-- icon: linkedin
-  icon_pack: fab
-  name: Reprex
-  url: https://www.linkedin.com/company/68855596/
-- icon: empty
-  name: 🇪🇺 CREA-CROSS-2023-INNOVLAB
-  url: https://culture.ec.europa.eu/calls/call-for-innovation-labs
+- icon: images
+  name: Listen Local Photography Collection
+  url: https://www.opencollections.net/collections/music/
+- icon: info
+  name: Listen Local Lithuania
+  url: https://lithuania.listen-local.net/
+
 
 # Links (optional).
 url_pdf: ""
