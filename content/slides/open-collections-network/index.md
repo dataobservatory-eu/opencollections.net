@@ -40,6 +40,7 @@ slides:
 <br/><br/><br/><br/><br/><br/><br/></br></br></br></br>
 
 ---
+
 {{< slide background-image="ocl_background_1.webp" background-position="center">}}
 ### Value proposition
 
@@ -48,6 +49,7 @@ slides:
 🛞 Stop reinventing the wheel: Use open-source, transparent automation for repeating tasks, particularly to make your inventory books machine-readable on global platforms without error. [Blogpost](https://dataandlyrics.com/post/2021-07-08-data-sisyphus/).
 
 ---
+
 {{< slide background-image="ocl_background_2.webp" background-position="center">}}
 ### Technology
 

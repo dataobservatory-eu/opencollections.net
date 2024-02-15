@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.433">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Antal Dániel, CFA">
+
+<title>Readers &amp; Tutorials - Adatgazdász</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Readers &amp; Tutorials</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html" rel="" target="">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./Reader.qmd" rel="" target="">
+ <span class="menu-text">Reader</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./personal-tools.html" rel="" target="">
+ <span class="menu-text">Personal Tools</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./wikidata-tutorial.html" rel="" target="">
+ <span class="menu-text">Wikidata</span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools ms-auto">
+    <div class="dropdown">
+      <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label=""><i class="bi bi-linkedin"></i></a>
+      <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item quarto-navbar-tools ms-auto-item" href="https://www.linkedin.com/in/antaldaniel/">
+            Daniel Antal
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item quarto-navbar-tools ms-auto-item" href="https://www.linkedin.com/company/68855596/">
+            Reprex
+            </a>
+          </li>
+      </ul>
+    </div>
+    <div class="dropdown">
+      <a href="" title="" id="quarto-navigation-tool-dropdown-1" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label=""><i class="bi bi-github"></i></a>
+      <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="quarto-navigation-tool-dropdown-1">
+          <li>
+            <a class="dropdown-item quarto-navbar-tools ms-auto-item" href="https://github.com/dataobservatory-eu/opencollections-tutorials">
+            Source Code
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item quarto-navbar-tools ms-auto-item" href="https://github.com/dataobservatory-eu/opencollections-tutorials/issues">
+            Report an Error
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item quarto-navbar-tools ms-auto-item" href="https://github.com/dataobservatory-eu/opencollections-tutorials/issues">
+            Request Improvements
+            </a>
+          </li>
+      </ul>
+    </div>
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#big-data-mindenkinek" id="toc-big-data-mindenkinek" class="nav-link active" data-scroll-target="#big-data-mindenkinek">Big Data mindenkinek</a></li>
+  <li><a href="#slide2-id" id="toc-slide2-id" class="nav-link" data-scroll-target="#slide2-id"></a></li>
+  <li><a href="#lokális-megoldások-globális-gyűjteményeknek" id="toc-lokális-megoldások-globális-gyűjteményeknek" class="nav-link" data-scroll-target="#lokális-megoldások-globális-gyűjteményeknek">Lokális megoldások globális gyűjteményeknek</a></li>
+  <li><a href="#lokális-megoldások-globális-gyűjteményeknek-példák" id="toc-lokális-megoldások-globális-gyűjteményeknek-példák" class="nav-link" data-scroll-target="#lokális-megoldások-globális-gyűjteményeknek-példák">Lokális megoldások globális gyűjteményeknek (példák)</a></li>
+  <li><a href="#gyűjtemény-létrehozása" id="toc-gyűjtemény-létrehozása" class="nav-link" data-scroll-target="#gyűjtemény-létrehozása">Gyűjtemény létrehozása</a></li>
+  <li><a href="#emberek-és-gépek-által-olvasható-nyilvántartások" id="toc-emberek-és-gépek-által-olvasható-nyilvántartások" class="nav-link" data-scroll-target="#emberek-és-gépek-által-olvasható-nyilvántartások">Emberek és gépek által olvasható nyilvántartások</a></li>
+  <li><a href="#univerzális-nyilvántartás" id="toc-univerzális-nyilvántartás" class="nav-link" data-scroll-target="#univerzális-nyilvántartás">Univerzális nyilvántartás</a></li>
+  <li><a href="#univerzálisan-kódolt-tudás" id="toc-univerzálisan-kódolt-tudás" class="nav-link" data-scroll-target="#univerzálisan-kódolt-tudás">Univerzálisan kódolt tudás</a></li>
+  <li><a href="#univerzálisan-kódolt-leírás" id="toc-univerzálisan-kódolt-leírás" class="nav-link" data-scroll-target="#univerzálisan-kódolt-leírás">Univerzálisan kódolt leírás</a></li>
+  <li><a href="#esettanulmány" id="toc-esettanulmány" class="nav-link" data-scroll-target="#esettanulmány">Esettanulmány</a></li>
+  <li><a href="#levelezőlapok-leírása" id="toc-levelezőlapok-leírása" class="nav-link" data-scroll-target="#levelezőlapok-leírása">Levelezőlapok leírása</a></li>
+  <li><a href="#levelezőlapok-tudás-hozzáadása" id="toc-levelezőlapok-tudás-hozzáadása" class="nav-link" data-scroll-target="#levelezőlapok-tudás-hozzáadása">Levelezőlapok: tudás hozzáadása</a></li>
+  <li><a href="#wikidata" id="toc-wikidata" class="nav-link" data-scroll-target="#wikidata">Wikidata</a></li>
+  <li><a href="#wikibase" id="toc-wikibase" class="nav-link" data-scroll-target="#wikibase">Wikibase</a></li>
+  </ul>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="adatgazdasz.html"><i class="bi bi-file-slides"></i>RevealJS</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Adatgazdász</h1>
+</div>
+
+
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Author</div>
+  <div class="quarto-title-meta-heading">Affiliations</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author"><a href="https://reprex.nl/author/daniel-antal/">Antal Dániel, CFA</a> <a href="https://orcid.org/0000-0001-7513-6760" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+  </div>
+    <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            <a href="https://reprex.nl/">
+            Reprex
+            </a>
+          </p>
+        <p class="affiliation">
+            <a href="https://opencollections.net/">
+            OpenCollections
+            </a>
+          </p>
+      </div>
+    </div>
+
+<div class="quarto-title-meta">
+
+      
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="big-data-mindenkinek" class="level2 scrollable" data-transition="slide">
+<h2 class="scrollable anchored" data-transition="slide" data-anchor-id="big-data-mindenkinek">Big Data mindenkinek</h2>
+<ul>
+<li>Reprex</li>
+</ul>
+</section>
+<section id="slide2-id" class="level2 scrollable" data-menu-title="Big data image" data-transition="slide">
+<h2 class="scrollable anchored" data-menu-title="Big data image" data-transition="slide" data-anchor-id="slide2-id"></h2>
+</section>
+<section id="lokális-megoldások-globális-gyűjteményeknek" class="level2">
+<h2 class="anchored" data-anchor-id="lokális-megoldások-globális-gyűjteményeknek">Lokális megoldások globális gyűjteményeknek</h2>
+<div class="fragment highlight-current-blue">
+<ul>
+<li>Szemantikus web, internet of data layer</li>
+</ul>
+</div>
+<div class="fragment highlight-current-blue">
+<ul>
+<li>Minden gyűjteményi elem egy a világ globális gyűjteményéből</li>
+</ul>
+</div>
+<div class="fragment highlight-current-blue">
+<ul>
+<li>A World Wide Web representáció összekötése a fizikai gyűjteménnyel</li>
+</ul>
+</div>
+<div class="fragment highlight-current-blue">
+<ul>
+<li>A digitális gyűjteményből linkek mindenhova a világon, ahol a fizikai gyűjteményről tudás található</li>
+</ul>
+</div>
+</section>
+<section id="lokális-megoldások-globális-gyűjteményeknek-példák" class="level2 smaller scrollable" data-transition="slide">
+<h2 class="smaller scrollable anchored" data-transition="slide" data-anchor-id="lokális-megoldások-globális-gyűjteményeknek-példák">Lokális megoldások globális gyűjteményeknek (példák)</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>Minden gyűjteményi elem egy a világ globális gyűjteményéből: mindennek legyen globálisan azonos és állandó azonosítója.</p>
+<div class="fragment highlight-current-blue" style="font-size: 90%;">
+<p>Globálisan egyedi azonosító: <a href="https://doi.org/10.5281/zenodo.10259347" class="uri">https://doi.org/10.5281/zenodo.10259347</a></p>
+</div>
+<div class="fragment highlight-current-blue" style="font-size: 90%;">
+<p>Compact formában: [doi:10.5281/zenodo.10259347]</p>
+</div>
+<div class="fragment highlight-current-blue" style="font-size: 90%;">
+<p>Dereferencing: Átírányítva egy weboldalra, HTML embereknek, RDF gépeknek.</p>
+</div>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://doi.org/10.5281/zenodo.10259347"><img src="png/data-steward-presentation/doi-example-zenodo_6x4.png" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div style="font-size: 70%;">
+<p>Próbáld ki a <a href="https://doi.org/10.5281/zenodo.10259347" class="uri">https://doi.org/10.5281/zenodo.10259347</a> linket!</p>
+</div>
+</div>
+</div>
+<div class="footer">
+<p>További olvasmányok: <a href="https://opencollections.net/documents/tutorials/reader.html">opencollections.net/documents/tutorials</a></p>
+</div>
+</section>
+<section id="gyűjtemény-létrehozása" class="level2 smaller scrollable" data-transition="slide">
+<h2 class="smaller scrollable anchored" data-transition="slide" data-anchor-id="gyűjtemény-létrehozása">Gyűjtemény létrehozása</h2>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Általános folyamat ↓</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Hazai elvárások ↓</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<div class="fragment highlight-current-blue" style="font-size: 90%;">
+<ul>
+<li>Erdeti műtárgyak (például képeslapok) leltári nyilvántartásba vétele</li>
+</ul>
+</div>
+<div class="fragment highlight-current-blue" style="font-size: 90%;">
+<ul>
+<li>Digitális másolatok (például a szkennelt képeslapok) leltári nyilvántartásba vétele</li>
+</ul>
+</div>
+<div class="fragment highlight-current-blue" style="font-size: 90%;">
+<ul>
+<li>Erdeti műtárgyak (például képeslapok) adattári nyilvántartásba vétele</li>
+</ul>
+</div>
+<div class="fragment highlight-current-blue" style="font-size: 90%;">
+<ul>
+<li>Digitális másolatok (például képeslapok) adattári nyilvántartásba vétele</li>
+</ul>
+</div>
+<div class="fragment highlight-current-blue" style="font-size: 90%;">
+<ul>
+<li>A nyilvántartások összekötése a világ többi nyilvántartásával</li>
+</ul>
+</div>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<p>20/2002. (X. 4.) NKÖM rendelet <a href="https://net.jogtar.hu/jogszabaly?docid=a0200020.nkm">a muzeális intézmények nyilvántartási szabályzatáról</a></p>
+<div class="fragment highlight-current-blue" style="font-size: 90%;">
+<ul>
+<li>Leltári szám: helyi azonosító</li>
+</ul>
+</div>
+<div class="fragment highlight-current-blue" style="font-size: 90%;">
+<ul>
+<li>Adattári szám: provenancia, a szerzés körülményei</li>
+</ul>
+</div>
+<div class="fragment highlight-current-blue" style="font-size: 90%;">
+<ul>
+<li>Globális azonosító: URI</li>
+</ul>
+</div>
+<div class="fragment highlight-current-blue" style="font-size: 90%;">
+<ul>
+<li>A nyilvántartások leírása RDF-ben: a világ minden gyűjteménye számára olvasható leltárkönyv és adattár</li>
+</ul>
+</div>
+<div class="fragment highlight-current-blue" style="font-size: 90%;">
+<ul>
+<li>Web katalógus: rendszerezett szolgáltatások (megtekintés, letöltés, kölcsönzés) létrehozása</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="footer">
+<p>Navigáció a panelek között: <code>TAB</code>. Paneleken belül: <code>↓</code> és <code>↑</code>.</p>
+</div>
+</section>
+<section id="emberek-és-gépek-által-olvasható-nyilvántartások" class="level2">
+<h2 class="anchored" data-anchor-id="emberek-és-gépek-által-olvasható-nyilvántartások">Emberek és gépek által olvasható nyilvántartások</h2>
+<div class="fragment highlight-current-blue" style="font-size: 90%;">
+<ul>
+<li>A leltári, adattári nyilvántartások, illetve könyvtári (tudástári) katalógusok, taxonomóiák nemzetközi szabványosításra régen tart.</li>
+</ul>
+</div>
+<div class="fragment highlight-current-blue" style="font-size: 90%;">
+<ul>
+<li>Az World Wide Web megjelenése óta tart a nyilvántartások és katalógusok teljes egybenyitása, függetlenül attól, hogy a szolgáltató magán- vagy közgyűjtemény, levéltár, múzeum, könyvtár vagy webshop.</li>
+</ul>
+</div>
+<div class="fragment highlight-current-blue" style="font-size: 90%;">
+<ul>
+<li>A globális összekötöttség érdekében cél a természetes nyelvektől való nagyfokú függetlenség és a gépi olvashatóhatóság.</li>
+</ul>
+</div>
+</section>
+<section id="univerzális-nyilvántartás" class="level2">
+<h2 class="anchored" data-anchor-id="univerzális-nyilvántartás">Univerzális nyilvántartás</h2>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true">Nyilvántartások</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false">Azonosítók</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-3" role="tab" aria-controls="tabset-2-3" aria-selected="false">Nyelvek</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-4" role="tab" aria-controls="tabset-2-4" aria-selected="false">Modellek</a></li></ul>
+<div class="tab-content">
+<div id="tabset-2-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-2-1-tab">
+<div class="fragment highlight-current-blue" style="font-size: 80%;">
+<ul>
+<li>A HTTP protokol és az URL általánosítása (nem kell tudnom, hogy fizikailag hol van a számítógép és hogyan jutok oda.)</li>
+</ul>
+</div>
+<div class="fragment highlight-current-blue" style="font-size: 80%;">
+<ul>
+<li>Univerzális, kódolt, számítógéppel olvasható tudásrögzítés dolgokról (például <code>Könyv</code>, <code>Író</code>) és kapcsolatukról (<code>a szerzője</code>, <code>a fordítója</code>, <code>a kiadója</code>)</li>
+</ul>
+</div>
+<div class="fragment highlight-current-blue" style="font-size: 80%;">
+<p><code>Író:Szerb Antal</code> a szerzője <code>Könyv:Utas és holdvilág</code></p>
+</div>
+<div class="fragment highlight-current-blue" style="font-size: 80%;">
+<p><code>Író:Antal Szerb</code> authored <code>Könyv:Jorney by Moonlight</code></p>
+</div>
+</div>
+<div id="tabset-2-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-2-tab">
+<div class="fragment highlight-current-blue" style="font-size: 80%;">
+<ul>
+<li>VIAF: Virtual International Authority File (<a href="https://viaf.org/viaf/147301654/#E%C3%B6tv%C3%B6s_Lor%C3%A1nd_Tudom%C3%A1nyegyetem.">VIAF ↗</a>) - katalóguscímek (nevek, intézményi nevek) globális azonsoítására.</li>
+</ul>
+</div>
+<div class="fragment highlight-current-blue" style="font-size: 80%;">
+<ul>
+<li>DOI: Digital Object Identifier (<a href="https://www.doi.org/">DOI ↗</a>) - dokumentumok általános azonosítására.</li>
+</ul>
+</div>
+<div class="fragment highlight-current-blue" style="font-size: 80%;">
+<ul>
+<li>ISBN: International Standard Book Numbe (<a href="https://isbnsearch.org/">ISBN ↗</a>) - könyvek általános azonosítására.</li>
+</ul>
+</div>
+<div class="fragment highlight-current-blue" style="font-size: 80%;">
+<ul>
+<li>HTTP: Weboldalak általános azonosítására.</li>
+</ul>
+</div>
+</div>
+<div id="tabset-2-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-3-tab">
+<div class="fragment highlight-current-blue" style="font-size: 80%;">
+<ul>
+<li>OWL: Web Ontology Language (<a href="https://www.w3.org/OWL/">OWL ↗</a>) - a tudás természetes nyelvektől független, géppel olvasható, kódolt leírása. Például annak a meghatározása, hogy az <code>Író</code> vagy <code>Könyv</code> micsoda.</li>
+</ul>
+</div>
+<div class="fragment highlight-current-blue" style="font-size: 80%;">
+<ul>
+<li>RDF: Resource Description Framework (<a href="https://www.w3.org/2001/sw/wiki/RDF">RDF ↗</a>) - a webes adatcsere modelje. Annak a meghatározása, hogy az <code>Író</code>, <code>Könyv</code>, <code>Irat</code>, <code>Levelezőlap</code>, <code>Szobor</code>, <code>szerzőség</code>, <code>tulajdon</code> adatait hogyan lehet átadni egy ember által olvasható weboldalnak vagy egy gép által olvasható adatfájlnak.</li>
+</ul>
+</div>
+</div>
+<div id="tabset-2-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-4-tab">
+<div class="fragment highlight-current-blue" style="font-size: 80%;">
+<ul>
+<li>Múzeumi nyilvántartás modellezése: a CIDOC Conceptual Reference Model (CIDOC-CRM) a kulturális örökség nyilvántartásainak modellezését teszi lehetővé. Lásd <a href="https://www.cidoc-crm.org/">www.cidoc-crm.org ↗</a>. 2006 óta nemzetközi szavány <code>ISO 21127:2006</code>.</li>
+</ul>
+</div>
+<div class="fragment highlight-current-blue" style="font-size: 80%;">
+<ul>
+<li>Records in Contexts–Conceptual Model (RiC-CM): a korábbi nemzetközi archívumi szabványokat [ISAD(G), ISAAR(CPF), ISDF, ISDIAH] felváltó általános modell. Lásd <a href="https://www.ica.org/resource/records-in-contexts-conceptual-model/">ica.org ↗</a>.</li>
+</ul>
+</div>
+<div class="fragment highlight-current-blue" style="font-size: 80%;">
+<ul>
+<li>EDM: Az Europeana Data Model az európai digitális kulturális örökség aggregálásához <a href="(https://pro.europeana.eu/page/edm-documentation)">EDM ↗</a>.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="univerzálisan-kódolt-tudás" class="level2 smaller scrollable" data-transition="slide">
+<h2 class="smaller scrollable anchored" data-transition="slide" data-anchor-id="univerzálisan-kódolt-tudás">Univerzálisan kódolt tudás</h2>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-3-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-1" role="tab" aria-controls="tabset-3-1" aria-selected="true">Nyelv: OWL</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-2" role="tab" aria-controls="tabset-3-2" aria-selected="false">Eszköz: Protégé</a></li></ul>
+<div class="tab-content">
+<div id="tabset-3-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-3-1-tab">
+<p>OWL: Web Ontology Language (<a href="https://www.w3.org/OWL/">OWL↗</a>)</p>
+<ul>
+<li>A tudás természetes nyelvektől független, géppel olvasható, kódolt leírása.</li>
+<li>Dolgok meghatározása: az <code>Író</code> vagy <code>Könyv</code> micsoda, és a köztük lévő kapcsolat leírása: <code>szerzője</code> vagy <code>fordítója</code>, illetve logikai kapcsolatok leírása (1989-ben <code>született</code> személy mint <code>Író</code> nem lehet <code>szerzője</code> egy 1988-ban írt <code>Könyvnek</code>)</li>
+<li>Alkalmas ontológiák, taxonómiák, tezaurusok elkészítésére, dokumentálására.</li>
+<li>Általában nem kézzel kódoljuk, hanem tudásmenedzsment alkalmazásokkal, amelyek közül a legelterjedtebb a <code>Protégé</code>.</li>
+</ul>
+</div>
+<div id="tabset-3-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-2-tab">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://doi.org/10.5281/zenodo.10259347"><img src="https://protegewiki.stanford.edu/images/thumb/1/1d/WP-classes.png/800px-WP-classes.png" class="img-fluid figure-img" width="700"></a></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div class="footer">
+<p>További információk: előadás <a href="https://opencollections.net/documents/tutorials/reader.html">irodalomjegyzék ↗</a>, Protégé ingyenes letöltés és tananyag: <a href="https://protegewiki.stanford.edu/wiki/Main_Page">Protégé wiki ↗</a>.</p>
+</div>
+</section>
+<section id="univerzálisan-kódolt-leírás" class="level2 smaller scrollable" data-transition="slide">
+<h2 class="smaller scrollable anchored" data-transition="slide" data-anchor-id="univerzálisan-kódolt-leírás">Univerzálisan kódolt leírás</h2>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-4-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-1" role="tab" aria-controls="tabset-4-1" aria-selected="true">Nyelv: RDF</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-4-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-2" role="tab" aria-controls="tabset-4-2" aria-selected="false">Eszköz: Turtle editor</a></li></ul>
+<div class="tab-content">
+<div id="tabset-4-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-4-1-tab">
+<p>RDF: Resource Description Framework (<a href="https://www.w3.org/2001/sw/wiki/RDF">RDF ↗</a>) - a webes adatcsere modelje.</p>
+<ul>
+<li><p>Annak a meghatározása, hogy az <code>Író</code>, <code>Könyv</code>, <code>Irat</code>, <code>Levelezőlap</code>, <code>Szobor</code>, <code>szerzőség</code>, <code>tulajdon</code> adatait hogyan lehet átadni egy ember által olvasható weboldalnak vagy egy gép által olvasható adatfájlnak.</p></li>
+<li><p>Teljesen összekapcsolatható az OWL nyelvvel.</p></li>
+</ul>
+</div>
+<div id="tabset-4-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-4-2-tab">
+<pre><code>EXAMPLE 1
+@base &lt;http://example.org/&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+@prefix rel: &lt;http://www.perceive.net/schemas/relationship/&gt; .
+
+&lt;#green-goblin&gt;
+    rel:enemyOf &lt;#spiderman&gt; ;
+    a foaf:Person ;    # in the context of the Marvel universe
+    foaf:name "Green Goblin" .
+
+&lt;#spiderman&gt;
+    rel:enemyOf &lt;#green-goblin&gt; ;
+    a foaf:Person ;
+    foaf:name "Spiderman", "Человек-паук"@ru .</code></pre>
+<div class="fragment highlight-current-blue" style="font-size: 80%;">
+<ul>
+<li>A tudásra vonatkozó, weben elérhető definíciók meghatározása a prefix részben, például az RDF nyelv használatának a rögzítése <code>rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;</code></li>
+</ul>
+</div>
+<div class="fragment highlight-current-blue" style="font-size: 80%;">
+<ul>
+<li>A tudás állítások formájában történő rögzítése: Green Goblin <code>&lt;#green-goblin&gt;</code> ellensége <code>rel:enemyOf</code> Spiderman <code>&lt;#spiderman&gt;</code>.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="footer">
+<p>További információk: előadás <a href="https://opencollections.net/documents/tutorials/reader.html">irodalomjegyzék ↗</a>, W3C meghatározás és tananyag: <a href="https://www.w3.org/TR/rdf12-turtle/">RDF Turtle 1.2 ↗</a>.</p>
+</div>
+</section>
+<section id="esettanulmány" class="level2">
+<h2 class="anchored" data-anchor-id="esettanulmány">Esettanulmány</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://archive.org/details/@daniel_antal"><img src="png/data-steward-presentation/archive_org_postcards_2x1.png" class="img-fluid figure-img" width="800"></a></p>
+</figure>
+</div>
+<p>Hosszú távú archiválás: <a href="https://archive.org/details/@daniel_antal">archive.org</a>. Globális, örök azonosítás: <a href="https://figshare.com/account/home#/collections/6998157">FigShare DOI</a>. Megjelenítés: <a href="https://www.flickr.com/photos/197707958@N02/albums/72177720314197166/">Flickr</a>.</p>
+</section>
+<section id="levelezőlapok-leírása" class="level2 smaller scrollable" data-transition="slide">
+<h2 class="smaller scrollable anchored" data-transition="slide" data-anchor-id="levelezőlapok-leírása">Levelezőlapok leírása</h2>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-5-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-5-1" role="tab" aria-controls="tabset-5-1" aria-selected="true">Kis privát gyűjtemény</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-5-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-5-2" role="tab" aria-controls="tabset-5-2" aria-selected="false">Eszköz: Turtle editor</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-5-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-5-3" role="tab" aria-controls="tabset-5-3" aria-selected="false">PID</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-5-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-5-4" role="tab" aria-controls="tabset-5-4" aria-selected="false">Tárhely</a></li></ul>
+<div class="tab-content">
+<div id="tabset-5-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-5-1-tab">
+<p>Aukción vásárolt régi képeslapok Budapestről. Szkennelve a másolatok feltöltve az archive.org digitális archívumba.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://archive.org/details/pstcrdf4266-budapest-erzsebet-hid-01"><img src="png/data-steward-presentation/archive_org_postcards_2x1.png" class="img-fluid figure-img" width="600"></a></p>
+</figure>
+</div>
+</div>
+<div id="tabset-5-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-5-2-tab">
+<pre><code>@prefix ex: &lt;http://example.org/&gt; .
+@prefix crm: &lt;http://www.cidoc-crm.org/cidoc-crm/&gt; .
+@prefix archive: &lt;https://archive.org/details/&gt; .
+@prefix aat: &lt;http://vocab.getty.edu/page/aat&gt; .
+@prefix viaf: &lt;http://viaf.org/viaf/&gt;
+@prefix dc: &lt;http://purl.org/dc/terms/&gt;
+@prefix doi: &lt;http://doi.org/&gt;
+@prefix edm: &lt;http://www.europeana.eu/schemas/edm/&gt;
+@prefix flickr: &lt;https://www.flickr.com/photos/&gt;
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+@prefix rel: &lt;http://www.perceive.net/schemas/relationship/&gt; .
+
+&lt;ex:pstcrdf426c-budapest-national-museum&gt;
+    dc:title "Nemzeti Múzeum";
+    dc:identifier doi:10.6084/m9.figshare.25140095.v1
+    a archive:pstcrdf426c-budapest-national-museum
+    a aat:300026819 ;    # picture postcards in AAT
+    crm:P62depicts &lt;ex:nemzeti-muzeum&gt;
+    edm:isShownAt flickr:197707958@N02/53508120764 .
+
+&lt;ex:nemzeti-muzeum&gt;
+    a viaf:312926811;   # 
+    foaf:name "Nemzeti Múzeum", "National Museum"@en .</code></pre>
+<div class="fragment highlight-current-blue" style="font-size: 80%;">
+<ul>
+<li>A tudásra vonatkozó, weben elérhető definíciók meghatározása a prefix részben, például az RDF nyelv használatának a rögzítése <code>rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;</code></li>
+</ul>
+</div>
+<div class="fragment highlight-current-blue" style="font-size: 80%;">
+<ul>
+<li>A tudás állítások formájában történő rögzítése: Green Goblin <code>&lt;#green-goblin&gt;</code> ellensége <code>rel:enemyOf</code> Spiderman <code>&lt;#spiderman&gt;</code>.</li>
+</ul>
+</div>
+</div>
+<div id="tabset-5-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-5-3-tab">
+<pre><code>@prefix ex: &lt;http://example.org/&gt; .
+@prefix dc: &lt;http://purl.org/dc/terms/&gt;
+@prefix doi: &lt;http://doi.org/&gt;
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rel: &lt;http://www.perceive.net/schemas/relationship/&gt; .
+
+&lt;ex:pstcrdf426c-budapest-national-museum&gt;
+    dc:title "Nemzeti Múzeum";
+    dc:identifier doi:10.6084/m9.figshare.25140095.v1 .</code></pre>
+<ul>
+<li><strong>Permanent Identifier (PID)</strong>: DOI. A <a href="https://figshare.com/articles/figure/Nemzeti_M_zeum/25140095/1">FigShare</a> oldalán készítettem a képeknek egy globálisan univerzális DOI azonosítót, amit itt lehet kiprórbálni: <a href="http://doi.org/10.6084/m9.figshare.25140095.v1" class="uri">http://doi.org/10.6084/m9.figshare.25140095.v1</a></li>
+</ul>
+</div>
+<div id="tabset-5-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-5-4-tab">
+<pre><code>@prefix ex: &lt;http://example.org/&gt; .
+@prefix archive: &lt;https://archive.org/details/&gt; .
+@prefix edm: &lt;http://www.europeana.eu/schemas/edm/&gt;
+@prefix flickr: &lt;https://www.flickr.com/photos/&gt;
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+
+&lt;ex:pstcrdf426c-budapest-national-museum&gt;
+    dc:title "Nemzeti Múzeum";
+    a archive:pstcrdf426c-budapest-national-museum
+    edm:isShownAt flickr:197707958@N02/53508120764 .</code></pre>
+<div class="fragment highlight-current-blue" style="font-size: 75%;">
+<ul>
+<li><strong>Tárolás</strong>: <code>archive.org</code> Az <a href="https://figshare.com/articles/figure/Nemzeti_M_zeum/25140095/1">archive.org</a> oldalán helyeztem el hosszú távra a képeslapok <em>szkennelt másolatát</em> (nem azonos a képeslappal!). Itt lehet kipróbálni: <a href="https://archive.org/details/pstcrdf426c-budapest-national-museum" class="uri">https://archive.org/details/pstcrdf426c-budapest-national-museum</a>.</li>
+</ul>
+</div>
+<div class="fragment highlight-current-blue" style="font-size: 75%;">
+<ul>
+<li><strong>Megjelenítés</strong>: <code>flickr.com</code> A <a href="https://www.flickr.com/photos/197707958@N02/53508120764">flickr.com</a> oldalát használom megjelenítésre, mert könnyű például blogokba behelyezni a képek előnézetét. Itt lehet kipróbálni: <a href="https://www.flickr.com/photos/197707958@N02/53508120764" class="uri">https://www.flickr.com/photos/197707958@N02/53508120764</a>.</li>
+</ul>
+</div>
+<div class="fragment highlight-current-blue" style="font-size: 75%;">
+<ul>
+<li><strong>Aggregálás</strong>: Az Europeana számára érthető, hogy itt lehet megtekinteni a képet: <code>edm:isShownAt flickr:197707958@N02/53508120764</code>. Ne felejtsük le a <code>@prefix flickr: &lt;https://www.flickr.com/photos/&gt; .</code> definíciót!</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="levelezőlapok-tudás-hozzáadása" class="level2 smaller scrollable" data-transition="slide">
+<h2 class="smaller scrollable anchored" data-transition="slide" data-anchor-id="levelezőlapok-tudás-hozzáadása">Levelezőlapok: tudás hozzáadása</h2>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-6-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-6-1" role="tab" aria-controls="tabset-6-1" aria-selected="true">Kis privát gyűjtemény</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-6-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-6-2" role="tab" aria-controls="tabset-6-2" aria-selected="false">TTL</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-6-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-6-3" role="tab" aria-controls="tabset-6-3" aria-selected="false">Autoritások</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-6-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-6-4" role="tab" aria-controls="tabset-6-4" aria-selected="false">Modell</a></li></ul>
+<div class="tab-content">
+<div id="tabset-6-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-6-1-tab">
+<p>Aukción vásárolt régi képeslapok Budapestről. Szkennelve a másolatok feltöltve az archive.org digitális archívumba.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://archive.org/details/pstcrdf4266-budapest-erzsebet-hid-01"><img src="png/data-steward-presentation/archive_org_postcards_2x1.png" class="img-fluid figure-img" width="600"></a></p>
+</figure>
+</div>
+</div>
+<div id="tabset-6-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-6-2-tab">
+<pre><code>@prefix ex: &lt;http://example.org/&gt; .
+@prefix crm: &lt;http://www.cidoc-crm.org/cidoc-crm/&gt; .
+@prefix archive: &lt;https://archive.org/details/&gt; .
+@prefix aat: &lt;http://vocab.getty.edu/page/aat&gt; .
+@prefix viaf: &lt;http://viaf.org/viaf/&gt;
+@prefix dc: &lt;http://purl.org/dc/terms/&gt;
+@prefix doi: &lt;http://doi.org/&gt;
+@prefix edm: &lt;http://www.europeana.eu/schemas/edm/&gt;
+@prefix flickr: &lt;https://www.flickr.com/photos/&gt;
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+@prefix rel: &lt;http://www.perceive.net/schemas/relationship/&gt; .
+
+&lt;ex:pstcrdf426c-budapest-national-museum&gt;
+    dc:title "Nemzeti Múzeum";
+    dc:identifier doi:10.6084/m9.figshare.25140095.v1
+    a archive:pstcrdf426c-budapest-national-museum
+    a aat:300026819 ;    # picture postcards in AAT
+    crm:P62depicts &lt;ex:nemzeti-muzeum&gt;
+    edm:isShownAt flickr:197707958@N02/53508120764 .
+
+&lt;ex:nemzeti-muzeum&gt;
+    a viaf:312926811;   # 
+    foaf:name "Nemzeti Múzeum", "National Museum"@en .</code></pre>
+<div class="fragment highlight-current-blue" style="font-size: 80%;">
+<ul>
+<li>A tudásra vonatkozó, weben elérhető definíciók meghatározása a prefix részben, például az RDF nyelv használatának a rögzítése <code>rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;</code></li>
+</ul>
+</div>
+<div class="fragment highlight-current-blue" style="font-size: 80%;">
+<ul>
+<li>A tudás állítások formájában történő rögzítése: Green Goblin <code>&lt;#green-goblin&gt;</code> ellensége <code>rel:enemyOf</code> Spiderman <code>&lt;#spiderman&gt;</code>.</li>
+</ul>
+</div>
+</div>
+<div id="tabset-6-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-6-3-tab">
+<pre><code>@prefix ex: &lt;http://example.org/&gt; .
+@prefix crm: &lt;http://www.cidoc-crm.org/cidoc-crm/&gt; .
+@prefix aat: &lt;http://vocab.getty.edu/page/aat&gt; .
+@prefix viaf: &lt;http://viaf.org/viaf/&gt;
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+
+&lt;ex:pstcrdf426c-budapest-national-museum&gt;
+    a aat:300026819 ;    # picture postcards in AAT
+    crm:P62depicts &lt;ex:nemzeti-muzeum&gt; .
+
+&lt;ex:nemzeti-muzeum&gt;
+    a viaf:312926811;   # 
+    foaf:name "Nemzeti Múzeum", "National Museum"@en .</code></pre>
+<div class="fragment highlight-current-blue" style="font-size: 80%;">
+<ul>
+<li><a href="http://vocab.getty.edu/page/aat/300026819">AAT picture postcard ↗</a> <code>http://vocab.getty.edu/page/aat/300026819</code> a képes levelezőlap globális definíciója.</li>
+</ul>
+</div>
+<div class="fragment highlight-current-blue" style="font-size: 80%;">
+<ul>
+<li><a href="http://viaf.org/viaf/312926811">VIAF Magyar nemzeti Múzeum ↗</a> <code>http://viaf.org/viaf/312926811</code> : a nemzeti könyvtárak autoritás fájlja a Magyar Nemzeti Múzeum mint intézmény azonosításáról.</li>
+</ul>
+</div>
+</div>
+<div id="tabset-6-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-6-4-tab">
+<pre><code>@prefix ex: &lt;http://example.org/&gt; .
+@prefix crm: &lt;http://www.cidoc-crm.org/cidoc-crm/&gt; .
+@prefix dc: &lt;http://purl.org/dc/terms/&gt;
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix rel: &lt;http://www.perceive.net/schemas/relationship/&gt; .
+
+&lt;ex:pstcrdf426c-budapest-national-museum&gt;
+    dc:title "Nemzeti Múzeum";
+    dc:identifier doi:10.6084/m9.figshare.25140095.v1
+    crm:P62depicts &lt;ex:nemzeti-muzeum&gt;
+    edm:isShownAt flickr:197707958@N02/53508120764 .
+
+&lt;ex:nemzeti-muzeum&gt;
+    a viaf:312926811;   # 
+    foaf:name "Nemzeti Múzeum", "National Museum"@en .</code></pre>
+<div class="fragment highlight-current-blue" style="font-size: 80%;">
+<ul>
+<li>Múzeumi nyilvántartás modellezése: a CIDOC Conceptual Reference Model (CIDOC-CRM) a kulturális örökség nyilvántartásainak modellezését teszi lehetővé. Lásd <a href="https://www.cidoc-crm.org/">www.cidoc-crm.org ↗</a>. 2006 óta nemzetközi szavány <code>ISO 21127:2006</code>.</li>
+</ul>
+</div>
+<div class="fragment highlight-current-blue" style="font-size: 80%;">
+<ul>
+<li>Records in Contexts–Conceptual Model (RiC-CM): a korábbi nemzetközi archívumi szabványokat [ISAD(G), ISAAR(CPF), ISDF, ISDIAH] felváltó általános modell. Lásd <a href="https://www.ica.org/resource/records-in-contexts-conceptual-model/">ica.org ↗</a>.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="wikidata" class="level2">
+<h2 class="anchored" data-anchor-id="wikidata">Wikidata</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://opencollections.net/documents/tutorials/wikidata-tutorial.html"><img src="png/wikidata-tutorial/wikidata-create-new-item-Janos-Barasits-20240204-2.png" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="footer">
+<p>További gyakorlat: Barasits János magyar képeslap-készítő globális azonosítójának az elkészítése - <a href="https://opencollections.net/documents/tutorials/wikidata-tutorial.html">tutorial: Using Wikidata and Wikimedia Commons for Global Identification</a>.</p>
+</div>
+</section>
+<section id="wikibase" class="level2">
+<h2 class="anchored" data-anchor-id="wikibase">Wikibase</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://verskorpusz.elte-dh.hu/"><img src="png/data-steward-presentation/elte_dh_2x1.png" class="img-fluid figure-img"></a></p>
+<figcaption class="figure-caption">Az elte.dh egy Wikibase instance. A Wikibase a Wikidata és a Wikimedia open source megoldása, amit bárki ingyen telepíthet egy szerverre.</figcaption>
+</figure>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

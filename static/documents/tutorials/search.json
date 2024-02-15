@@ -1,0 +1,240 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Readers & Tutorials",
+    "section": "",
+    "text": "This is a collection of simple tutorials and readings for the ESCP and ELTE Data stewardship students, and prospective experts or interns of Reprex and its partners in music, film, and EsG knowledge and data management.\n📖 Reader: introductory texts, quotations, presentations about basic concepts, followed by more in-depth articles, books, and other sources. Edit this file here, or report bugs, request updates.\n🛠️Tools: Simple, open source tools to get you started to work in a smarter, or more productive way.\n🇼 Wikidata tutorial: start to work with Wikidata and Wikibase.\n🖵 Adatgazdász prezentáció."
+  },
+  {
+    "objectID": "personal-tools.html",
+    "href": "personal-tools.html",
+    "title": "Personal Tools",
+    "section": "",
+    "text": "All our output needs to be converted to HTML, but that does not mean that we need to work in an HTML editor. However, the need of interoperability among operating systems (Windows, MacOs, Linux) and software packages (at least from Word, Libre, Google Docs to HTML, preferably to PDF, too) requires a simple, common notation.\nMarkdown is a much simplified HTML-like text markup notation intended to work well with word processors.\n\n\n\nFrom a simple markdown text file, you can create HTML, Word, PDF, EPUB or even PowerPoint and other web slides.\n\n\nThere are countless Markdown editors. Because Markdown is so simple, you can, if you want to, edit markdown files in Notepad, WordPad (Windows) or VIM (Linux).\nMost word processors support markdown. For example, Google Docs has a free extension that converts and document from Docs to markdown.\nThere are several online Markdown editors that you can use to try writing in Markdown. Dillinger is one of the best online Markdown editors. Just open the site and start typing in the left pane. A preview of the rendered document appears in the right pane.\n\n\n\nYou can link Dilinger with your Dropbox, Google Drive, Microsoft One Drive, BitBucket, and write text that can be converted to HTML, PDF, and with a bit of tweaking to Word or even PowerPoint.\n\n\nMost word processors support markdown. For example, Google Docs has a free extension that converts and document from Docs to markdown.\n\n\n\n\n\n\nFurther markdown reading\n\n\n\n\nBasic Syntax\nExtended Syntax"
+  },
+  {
+    "objectID": "personal-tools.html#writing-interoperability-type-a-text-that-appears-on-any-paper-or-screen-format-well",
+    "href": "personal-tools.html#writing-interoperability-type-a-text-that-appears-on-any-paper-or-screen-format-well",
+    "title": "Personal Tools",
+    "section": "",
+    "text": "All our output needs to be converted to HTML, but that does not mean that we need to work in an HTML editor. However, the need of interoperability among operating systems (Windows, MacOs, Linux) and software packages (at least from Word, Libre, Google Docs to HTML, preferably to PDF, too) requires a simple, common notation.\nMarkdown is a much simplified HTML-like text markup notation intended to work well with word processors.\n\n\n\nFrom a simple markdown text file, you can create HTML, Word, PDF, EPUB or even PowerPoint and other web slides.\n\n\nThere are countless Markdown editors. Because Markdown is so simple, you can, if you want to, edit markdown files in Notepad, WordPad (Windows) or VIM (Linux).\nMost word processors support markdown. For example, Google Docs has a free extension that converts and document from Docs to markdown.\nThere are several online Markdown editors that you can use to try writing in Markdown. Dillinger is one of the best online Markdown editors. Just open the site and start typing in the left pane. A preview of the rendered document appears in the right pane.\n\n\n\nYou can link Dilinger with your Dropbox, Google Drive, Microsoft One Drive, BitBucket, and write text that can be converted to HTML, PDF, and with a bit of tweaking to Word or even PowerPoint.\n\n\nMost word processors support markdown. For example, Google Docs has a free extension that converts and document from Docs to markdown.\n\n\n\n\n\n\nFurther markdown reading\n\n\n\n\nBasic Syntax\nExtended Syntax"
+  },
+  {
+    "objectID": "personal-tools.html#quarto",
+    "href": "personal-tools.html#quarto",
+    "title": "Personal Tools",
+    "section": "Quarto",
+    "text": "Quarto\n\n\n\nQuarto is an open-source scientific and technical publishing system. If you write code, you can use it as an extension to your favorite IDE.\n\n\nIf not, a good way to start writing fully interoperable, smart text is to use it with Microsoft VS Code. Yes, it is a bit geeky: you will write text as if it was a software code.\n\n\n\nIf not, a good way to start writing fully interoperable, smart text is to use it with Microsoft VS Code. Yes, it is a bit geeky: you will write text as if it was a software code.\n\n\nThe flip side is that you will use a word processor that immediately creates you dashboards, websites, ebooks, and scientific presentations of publications.\n\nAuthor using Jupyter notebooks or with plain text markdown in your favorite editor.\nCreate dynamic content with Python, R, Julia, and Observable.\nPublish reproducible, production quality articles, presentations, dashboards, websites, blogs, and books in HTML, PDF, MS Word, ePub, and more.\nShare knowledge and insights organization-wide by publishing to Posit Connect, Confluence, or other publishing systems.\nWrite using Pandoc markdown, including equations, citations, crossrefs, figure panels, callouts, advanced layout, and more.\n\nInstall Quarto\n\nquarto install extension quarto-ext/fontawesome"
+  },
+  {
+    "objectID": "personal-tools.html#citation-management",
+    "href": "personal-tools.html#citation-management",
+    "title": "Personal Tools",
+    "section": "Citation management",
+    "text": "Citation management\n\nBibliographies for all computer systems and programs\nThe biblatex format is the most likely format that you will use for scientific publications. You can export a collection, or more practically, a folder in a collection as a starting point, into the BibLatex format from Zotero (introduced in the previous chapter Collaboration Tools - Zotero. See Zotero as a graphic UI, like Windows 11 or MacOS as a human-readable reference database, and the biblatex is a machine-readable (DOS or BSD) part. The standard output from Zotero is a good start, but usually, it is not perfect. Please open the bib/example.bib file and see an example of how to make a reference more usable and interoperable.\n\n@book{example_id_2015,---you will use this in your text&lt;/br&gt;\n    author = {Doe, Jane},&lt;/br&gt;\n    editor = {Doe, Joe},&lt;/br&gt;\n    date = {2015-06-06},&lt;/br&gt;\n    year = {2015},---some programs do not convert from date automatically&lt;/br&gt;\n    month = {06},---not needed with books, journals&lt;/br&gt;\n    day = {06},---not needed with books, journals&lt;/br&gt;\n    doi = {&lt;a Digital Object identifier code goes here&gt;},---connects to web resources&lt;br&gt;\n    isbn = {&lt;an International Standard Book Number identifier goes here&gt;},&lt;br&gt;\n    urldate = {2023-07-12},&lt;br&gt;\n    title = {This is an {EXAMPLE} title}, --- the EXAMPLE remains UPPERCASE&lt;br&gt;\n    abstract = {This is the {Place} for an {AbStraCT}.},---Keep it short, or omit it&lt;/br&gt;\n    url = {http://example.com/title},&lt;br&gt;\n    issn = {&lt;an International Standard Serial Number here&gt;},---connects with library catalogues&lt;br&gt;\n    publisher = {{Digital Music Observatory}},&lt;br&gt;\n  keywords = {Example},---use only standardized keywords, like [LCSH](https://id.loc.gov/authorities/subjects.html)&lt;br&gt;\n}\n\nA .bib file is a text file that you can edit in Notepad or WordPad on Windows, VIM on Linux, in RStudio, or any text editor (not word processor like Word.) It contains the notation of programmable bibliographic references.\nIn biblatex, each field has a value. For example, year=2015 stands for the publication year 2015. When text is used and not a number, for example, month={March}, you use the {} sign as a quotation. The most likely formatting error is with {}.\n\nSimple values have their own standard readings: author={Doe, Jane} will translate to J. Doe or Jane Doe. The author={Jane Doe} will translate to D. Jane, or Doe Jane, because the standard name setting is GivenName, FamilyName.\nDouble quotation can override whatever standards. For example, author={{Jane Doe}} will always read as Jane Doe and not Doe Jane or J. Doe. This is what you use with institutional authors. When no person is named as an author, for example, in the case of a statute law text, use the double quotation. author={{European Commission}} with read European Commission, but author={European Commission} will read C. European.\nAdd a language identifier, for example, for English language books: language = {en}. Your title will be converted to the linguistic requirements of the given language. If you use multiple languages, and you want to avoid English title case for a Slovak or Hungarian document, then double quote the title={{This is a sentence case title}} will be This is a sentence case title, but title = {{This is sentence case}} will be overwritten to This is Sentence Case if your default language is English.\nIf you use an acronym, then you always have to use double quotation. The role of the EU in global politics must be written title = {The role of the {EU} in global politics}; otherwise, the EU part will be converted to Eu in English and eu in Slovak. In this case, every word will be captions as required by your main document, but the EU part will always remain EU."
+  },
+  {
+    "objectID": "wikidata-tutorial.html",
+    "href": "wikidata-tutorial.html",
+    "title": "Wikidata",
+    "section": "",
+    "text": "In this tutorial, I will follow up on the publication of a scanned postcard by Barasits. Mr and Mrs Barasits, a.k.a. János Barasits (1859-1935) and his wife, Barasits, Jánosné, born Pichler, Kornélia, were prominent postcard producers and publishers at the beginning of the 20th century. There are plenty of beautiful postcards available from them.\nIn the 1920s and 1930s, the authors’ right (~copyright) protection of photographs and postcards was relatively short, only 15 years, so their postcards went into the public domain in terms of copying long ago.\nUnfortunately, I did not find their name in the most commonly used authority controls, i.e., neither in VIAF nor ISNI. Writing to VIAF is only possible via member institutions, and ISNI costs money. As a temporary solution, I create a Wikidata QID for János Barakovits until somebody registers his name into VIAF.\nWriting in Wikidata is free for all and subject to community review. If you read this tutorial, please pledge to record new persons (or other items) into Wikidata if your knowledge is solid. You can verify the information with research.\nAfter creating a QID for János Barakovics, we uploaded one of their family business’s public domain works onto Wikimedia Commons, then to archive.org and Flickr."
+  },
+  {
+    "objectID": "wikidata-tutorial.html#global-identities",
+    "href": "wikidata-tutorial.html#global-identities",
+    "title": "Wikidata",
+    "section": "",
+    "text": "In this tutorial, I will follow up on the publication of a scanned postcard by Barasits. Mr and Mrs Barasits, a.k.a. János Barasits (1859-1935) and his wife, Barasits, Jánosné, born Pichler, Kornélia, were prominent postcard producers and publishers at the beginning of the 20th century. There are plenty of beautiful postcards available from them.\nIn the 1920s and 1930s, the authors’ right (~copyright) protection of photographs and postcards was relatively short, only 15 years, so their postcards went into the public domain in terms of copying long ago.\nUnfortunately, I did not find their name in the most commonly used authority controls, i.e., neither in VIAF nor ISNI. Writing to VIAF is only possible via member institutions, and ISNI costs money. As a temporary solution, I create a Wikidata QID for János Barakovits until somebody registers his name into VIAF.\nWriting in Wikidata is free for all and subject to community review. If you read this tutorial, please pledge to record new persons (or other items) into Wikidata if your knowledge is solid. You can verify the information with research.\nAfter creating a QID for János Barakovics, we uploaded one of their family business’s public domain works onto Wikimedia Commons, then to archive.org and Flickr."
+  },
+  {
+    "objectID": "wikidata-tutorial.html#create-a-wikidata-item",
+    "href": "wikidata-tutorial.html#create-a-wikidata-item",
+    "title": "Wikidata",
+    "section": "Create a Wikidata Item",
+    "text": "Create a Wikidata Item\nIn this tutorial you will learn how to create a new entry on Wikidata.\n\n\n\nCreate a Wikidata entry (and page) for a Thing (including a fictional, deceased or living person) on Wikidata.\n\n\nWikidata is used all over the world to connect and refine knowledge. Do not pollute the system with half-baked ideas, ill-researched items. There are many test and learning environments called sandboxes for practicing. You should only write into Wikidata when you are absolutely certain about your facts.\n\n\n\nOn the graphical user interface (GUI) you will be instructed to give out the most basic details of this new entry.\n\n\nAdd a few, basic statements to your new item, for example, the János Barasits is a human, he was male, born in 1859 (with the precision of a year only) and died in 1935.\n\n\n\nYou do not need to know property identifiers and any code to work in the GUI.\n\n\n\n\n\n\n\n\n\n\n\nHere is a very basic Wikidata page for János Barasits. What is very important that we have a globally unique identifier, Q124423018 that uniquely identifies him as a human. Later, when somebody creates a VIAF or ISNI identifier for him, we can connect this Wikidata page (i.e., Q124423018) to those authority files."
+  },
+  {
+    "objectID": "wikidata-tutorial.html#upload-to-wikimedia-commons",
+    "href": "wikidata-tutorial.html#upload-to-wikimedia-commons",
+    "title": "Wikidata",
+    "section": "Upload to Wikimedia Commons",
+    "text": "Upload to Wikimedia Commons\nYou will face a rights notice: you can only upload files where you are the author and give a free cultural license, or you know that that the image is in the public domain.\n\n\n\nOnly upload images if you are absolutely certain that you are not infringing anybody’s copyright.\n\n\nGive a meaningful identifier (unique part of the future URL of the image.) It is a good idea to use a filename that refers back to your catalogue, in this case, I use:\n\n\n\nYou should use a good identifier, for example, your own file name or local database ID\n\n\nNow it is time to describe the uploaded item. In this page, I am giving it an English and a Hungarian title, for example, which is the same as it is found in the inventory book and the catalogue:\n Now we can add more semantic information about the image. We describe with existing Wikidata entries what is known about this postcard. For example, here I state that it describes Margaret island, the Margaret Island (Q18816) tramstop on the Margaret Bridge; furthermore, I connect the image to the previously created János Barasits (Q124423018) item."
+  },
+  {
+    "objectID": "wikidata-tutorial.html#linking-knowledge",
+    "href": "wikidata-tutorial.html#linking-knowledge",
+    "title": "Wikidata",
+    "section": "Linking Knowledge",
+    "text": "Linking Knowledge\nWhat happened here? We did not simply connect a very basic biography, a scanned vintage postcard and a database entry about a bridge. We linked together in machine-readable (and human readable) form knowledge about a person, his work, and the depicted small island; not only a string, i.e., the name of the island, but\n\nthe name of the island in many languages;\nan encyclopedical description of the island in many languages;\na geocoded location;\nidentifiers in the global library catalog linking system VIAF, the catalogue identifiers of the national libraries of the U.S. and Israel that hold information carriers (most likely, books) about the island.\n\n\n\n\nUnder the hood, Wikidata starts to connect a lot of knowledge to the information you have entered, for example, adds GIS geographical information to the location information you entered automatically.\n\n\nAnd of course, we created a simple, graphical user interface where people and machines can start to add and link more knowledge about János Barasits."
+  },
+  {
+    "objectID": "wikidata-tutorial.html#wikidata-reader",
+    "href": "wikidata-tutorial.html#wikidata-reader",
+    "title": "Wikidata",
+    "section": "Further reading",
+    "text": "Further reading\nBibliography file: wikidata.bib\n\nWikidata: From “an” Identifier to “the” Identifier: using Wikidata QID as global URI for identifying things (Veen 2019) .\nBeyond VIAF: Wikidata as a Complementary Tool for Authority Control in Libraries: use of Wikidata for librarians - (Bianchini, Bargioni, and Pellizzari di San Girolamo 2021)\nBeyond the Fountain: Mapping a New Entry Point to the Society of Independent Artists: use of Wikidata for private collections and communities (Siler 2022)\nBulgarian Icons in Wikidata and EDM: Reconciliation between Wikidata and the Europeana Data Model (Alexiev et al. 2020)\nWikidata: a new perspective towards universal bibliographic control (Sardo and Bianchini 2022).\nWikidata and Wikibase as complementary research data management services for cultural heritage data: use in cultural heritage (Rossenova, Duchesne, and Blümel 2022)\nWikidata for authority control: sharing museum knowledge with the world: the use of Wikidata in museums. (Fagerving 2023)\nProviding sustainable data services through Wikibase and Wikidata: use cases from Europe (2020 2020)\nEnvironmental impact assessment reports in Wikidata and a Wikibase (Nielsen et al. 2023)"
+  },
+  {
+    "objectID": "adatgazdasz.html",
+    "href": "adatgazdasz.html",
+    "title": "Adatgazdász",
+    "section": "",
+    "text": "Reprex"
+  },
+  {
+    "objectID": "adatgazdasz.html#big-data-mindenkinek",
+    "href": "adatgazdasz.html#big-data-mindenkinek",
+    "title": "Adatgazdász",
+    "section": "",
+    "text": "Reprex"
+  },
+  {
+    "objectID": "adatgazdasz.html#lokális-megoldások-globális-gyűjteményeknek",
+    "href": "adatgazdasz.html#lokális-megoldások-globális-gyűjteményeknek",
+    "title": "Adatgazdász",
+    "section": "Lokális megoldások globális gyűjteményeknek",
+    "text": "Lokális megoldások globális gyűjteményeknek\n\n\nSzemantikus web, internet of data layer\n\n\n\n\nMinden gyűjteményi elem egy a világ globális gyűjteményéből\n\n\n\n\nA World Wide Web representáció összekötése a fizikai gyűjteménnyel\n\n\n\n\nA digitális gyűjteményből linkek mindenhova a világon, ahol a fizikai gyűjteményről tudás található"
+  },
+  {
+    "objectID": "adatgazdasz.html#lokális-megoldások-globális-gyűjteményeknek-példák",
+    "href": "adatgazdasz.html#lokális-megoldások-globális-gyűjteményeknek-példák",
+    "title": "Adatgazdász",
+    "section": "Lokális megoldások globális gyűjteményeknek (példák)",
+    "text": "Lokális megoldások globális gyűjteményeknek (példák)\n\n\nMinden gyűjteményi elem egy a világ globális gyűjteményéből: mindennek legyen globálisan azonos és állandó azonosítója.\n\nGlobálisan egyedi azonosító: https://doi.org/10.5281/zenodo.10259347\n\n\nCompact formában: [doi:10.5281/zenodo.10259347]\n\n\nDereferencing: Átírányítva egy weboldalra, HTML embereknek, RDF gépeknek.\n\n\n\n\n\n\n\n\nPróbáld ki a https://doi.org/10.5281/zenodo.10259347 linket!\n\n\n\n\nTovábbi olvasmányok: opencollections.net/documents/tutorials"
+  },
+  {
+    "objectID": "adatgazdasz.html#gyűjtemény-létrehozása",
+    "href": "adatgazdasz.html#gyűjtemény-létrehozása",
+    "title": "Adatgazdász",
+    "section": "Gyűjtemény létrehozása",
+    "text": "Gyűjtemény létrehozása\n\nÁltalános folyamat ↓Hazai elvárások ↓\n\n\n\n\nErdeti műtárgyak (például képeslapok) leltári nyilvántartásba vétele\n\n\n\n\nDigitális másolatok (például a szkennelt képeslapok) leltári nyilvántartásba vétele\n\n\n\n\nErdeti műtárgyak (például képeslapok) adattári nyilvántartásba vétele\n\n\n\n\nDigitális másolatok (például képeslapok) adattári nyilvántartásba vétele\n\n\n\n\nA nyilvántartások összekötése a világ többi nyilvántartásával\n\n\n\n\n20/2002. (X. 4.) NKÖM rendelet a muzeális intézmények nyilvántartási szabályzatáról\n\n\nLeltári szám: helyi azonosító\n\n\n\n\nAdattári szám: provenancia, a szerzés körülményei\n\n\n\n\nGlobális azonosító: URI\n\n\n\n\nA nyilvántartások leírása RDF-ben: a világ minden gyűjteménye számára olvasható leltárkönyv és adattár\n\n\n\n\nWeb katalógus: rendszerezett szolgáltatások (megtekintés, letöltés, kölcsönzés) létrehozása\n\n\n\n\n\n\nNavigáció a panelek között: TAB. Paneleken belül: ↓ és ↑."
+  },
+  {
+    "objectID": "adatgazdasz.html#emberek-és-gépek-által-olvasható-nyilvántartások",
+    "href": "adatgazdasz.html#emberek-és-gépek-által-olvasható-nyilvántartások",
+    "title": "Adatgazdász",
+    "section": "Emberek és gépek által olvasható nyilvántartások",
+    "text": "Emberek és gépek által olvasható nyilvántartások\n\n\nA leltári, adattári nyilvántartások, illetve könyvtári (tudástári) katalógusok, taxonomóiák nemzetközi szabványosításra régen tart.\n\n\n\n\nAz World Wide Web megjelenése óta tart a nyilvántartások és katalógusok teljes egybenyitása, függetlenül attól, hogy a szolgáltató magán- vagy közgyűjtemény, levéltár, múzeum, könyvtár vagy webshop.\n\n\n\n\nA globális összekötöttség érdekében cél a természetes nyelvektől való nagyfokú függetlenség és a gépi olvashatóhatóság."
+  },
+  {
+    "objectID": "adatgazdasz.html#univerzális-nyilvántartás",
+    "href": "adatgazdasz.html#univerzális-nyilvántartás",
+    "title": "Adatgazdász",
+    "section": "Univerzális nyilvántartás",
+    "text": "Univerzális nyilvántartás\n\nNyilvántartásokAzonosítókNyelvekModellek\n\n\n\n\nA HTTP protokol és az URL általánosítása (nem kell tudnom, hogy fizikailag hol van a számítógép és hogyan jutok oda.)\n\n\n\n\nUniverzális, kódolt, számítógéppel olvasható tudásrögzítés dolgokról (például Könyv, Író) és kapcsolatukról (a szerzője, a fordítója, a kiadója)\n\n\n\nÍró:Szerb Antal a szerzője Könyv:Utas és holdvilág\n\n\nÍró:Antal Szerb authored Könyv:Jorney by Moonlight\n\n\n\n\n\nVIAF: Virtual International Authority File (VIAF ↗) - katalóguscímek (nevek, intézményi nevek) globális azonsoítására.\n\n\n\n\nDOI: Digital Object Identifier (DOI ↗) - dokumentumok általános azonosítására.\n\n\n\n\nISBN: International Standard Book Numbe (ISBN ↗) - könyvek általános azonosítására.\n\n\n\n\nHTTP: Weboldalak általános azonosítására.\n\n\n\n\n\n\nOWL: Web Ontology Language (OWL ↗) - a tudás természetes nyelvektől független, géppel olvasható, kódolt leírása. Például annak a meghatározása, hogy az Író vagy Könyv micsoda.\n\n\n\n\nRDF: Resource Description Framework (RDF ↗) - a webes adatcsere modelje. Annak a meghatározása, hogy az Író, Könyv, Irat, Levelezőlap, Szobor, szerzőség, tulajdon adatait hogyan lehet átadni egy ember által olvasható weboldalnak vagy egy gép által olvasható adatfájlnak.\n\n\n\n\n\n\nMúzeumi nyilvántartás modellezése: a CIDOC Conceptual Reference Model (CIDOC-CRM) a kulturális örökség nyilvántartásainak modellezését teszi lehetővé. Lásd www.cidoc-crm.org ↗. 2006 óta nemzetközi szavány ISO 21127:2006.\n\n\n\n\nRecords in Contexts–Conceptual Model (RiC-CM): a korábbi nemzetközi archívumi szabványokat [ISAD(G), ISAAR(CPF), ISDF, ISDIAH] felváltó általános modell. Lásd ica.org ↗.\n\n\n\n\nEDM: Az Europeana Data Model az európai digitális kulturális örökség aggregálásához EDM ↗."
+  },
+  {
+    "objectID": "adatgazdasz.html#univerzálisan-kódolt-tudás",
+    "href": "adatgazdasz.html#univerzálisan-kódolt-tudás",
+    "title": "Adatgazdász",
+    "section": "Univerzálisan kódolt tudás",
+    "text": "Univerzálisan kódolt tudás\n\nNyelv: OWLEszköz: Protégé\n\n\nOWL: Web Ontology Language (OWL↗)\n\nA tudás természetes nyelvektől független, géppel olvasható, kódolt leírása.\nDolgok meghatározása: az Író vagy Könyv micsoda, és a köztük lévő kapcsolat leírása: szerzője vagy fordítója, illetve logikai kapcsolatok leírása (1989-ben született személy mint Író nem lehet szerzője egy 1988-ban írt Könyvnek)\nAlkalmas ontológiák, taxonómiák, tezaurusok elkészítésére, dokumentálására.\nÁltalában nem kézzel kódoljuk, hanem tudásmenedzsment alkalmazásokkal, amelyek közül a legelterjedtebb a Protégé.\n\n\n\n\n\n\n\n\n\n\n\n\nTovábbi információk: előadás irodalomjegyzék ↗, Protégé ingyenes letöltés és tananyag: Protégé wiki ↗."
+  },
+  {
+    "objectID": "adatgazdasz.html#univerzálisan-kódolt-leírás",
+    "href": "adatgazdasz.html#univerzálisan-kódolt-leírás",
+    "title": "Adatgazdász",
+    "section": "Univerzálisan kódolt leírás",
+    "text": "Univerzálisan kódolt leírás\n\nNyelv: RDFEszköz: Turtle editor\n\n\nRDF: Resource Description Framework (RDF ↗) - a webes adatcsere modelje.\n\nAnnak a meghatározása, hogy az Író, Könyv, Irat, Levelezőlap, Szobor, szerzőség, tulajdon adatait hogyan lehet átadni egy ember által olvasható weboldalnak vagy egy gép által olvasható adatfájlnak.\nTeljesen összekapcsolatható az OWL nyelvvel.\n\n\n\nEXAMPLE 1\n@base &lt;http://example.org/&gt; .\n@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .\n@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .\n@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .\n@prefix rel: &lt;http://www.perceive.net/schemas/relationship/&gt; .\n\n&lt;#green-goblin&gt;\n    rel:enemyOf &lt;#spiderman&gt; ;\n    a foaf:Person ;    # in the context of the Marvel universe\n    foaf:name \"Green Goblin\" .\n\n&lt;#spiderman&gt;\n    rel:enemyOf &lt;#green-goblin&gt; ;\n    a foaf:Person ;\n    foaf:name \"Spiderman\", \"Человек-паук\"@ru .\n\n\nA tudásra vonatkozó, weben elérhető definíciók meghatározása a prefix részben, például az RDF nyelv használatának a rögzítése rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;\n\n\n\n\nA tudás állítások formájában történő rögzítése: Green Goblin &lt;#green-goblin&gt; ellensége rel:enemyOf Spiderman &lt;#spiderman&gt;.\n\n\n\n\n\n\nTovábbi információk: előadás irodalomjegyzék ↗, W3C meghatározás és tananyag: RDF Turtle 1.2 ↗."
+  },
+  {
+    "objectID": "adatgazdasz.html#esettanulmány",
+    "href": "adatgazdasz.html#esettanulmány",
+    "title": "Adatgazdász",
+    "section": "Esettanulmány",
+    "text": "Esettanulmány\n\n\n\n\n\nHosszú távú archiválás: archive.org. Globális, örök azonosítás: FigShare DOI. Megjelenítés: Flickr."
+  },
+  {
+    "objectID": "adatgazdasz.html#levelezőlapok-leírása",
+    "href": "adatgazdasz.html#levelezőlapok-leírása",
+    "title": "Adatgazdász",
+    "section": "Levelezőlapok leírása",
+    "text": "Levelezőlapok leírása\n\nKis privát gyűjteményEszköz: Turtle editorPIDTárhely\n\n\nAukción vásárolt régi képeslapok Budapestről. Szkennelve a másolatok feltöltve az archive.org digitális archívumba.\n\n\n\n\n\n\n\n@prefix ex: &lt;http://example.org/&gt; .\n@prefix crm: &lt;http://www.cidoc-crm.org/cidoc-crm/&gt; .\n@prefix archive: &lt;https://archive.org/details/&gt; .\n@prefix aat: &lt;http://vocab.getty.edu/page/aat&gt; .\n@prefix viaf: &lt;http://viaf.org/viaf/&gt;\n@prefix dc: &lt;http://purl.org/dc/terms/&gt;\n@prefix doi: &lt;http://doi.org/&gt;\n@prefix edm: &lt;http://www.europeana.eu/schemas/edm/&gt;\n@prefix flickr: &lt;https://www.flickr.com/photos/&gt;\n@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .\n@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .\n@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .\n@prefix rel: &lt;http://www.perceive.net/schemas/relationship/&gt; .\n\n&lt;ex:pstcrdf426c-budapest-national-museum&gt;\n    dc:title \"Nemzeti Múzeum\";\n    dc:identifier doi:10.6084/m9.figshare.25140095.v1\n    a archive:pstcrdf426c-budapest-national-museum\n    a aat:300026819 ;    # picture postcards in AAT\n    crm:P62depicts &lt;ex:nemzeti-muzeum&gt;\n    edm:isShownAt flickr:197707958@N02/53508120764 .\n\n&lt;ex:nemzeti-muzeum&gt;\n    a viaf:312926811;   # \n    foaf:name \"Nemzeti Múzeum\", \"National Museum\"@en .\n\n\nA tudásra vonatkozó, weben elérhető definíciók meghatározása a prefix részben, például az RDF nyelv használatának a rögzítése rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;\n\n\n\n\nA tudás állítások formájában történő rögzítése: Green Goblin &lt;#green-goblin&gt; ellensége rel:enemyOf Spiderman &lt;#spiderman&gt;.\n\n\n\n\n@prefix ex: &lt;http://example.org/&gt; .\n@prefix dc: &lt;http://purl.org/dc/terms/&gt;\n@prefix doi: &lt;http://doi.org/&gt;\n@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .\n@prefix rel: &lt;http://www.perceive.net/schemas/relationship/&gt; .\n\n&lt;ex:pstcrdf426c-budapest-national-museum&gt;\n    dc:title \"Nemzeti Múzeum\";\n    dc:identifier doi:10.6084/m9.figshare.25140095.v1 .\n\nPermanent Identifier (PID): DOI. A FigShare oldalán készítettem a képeknek egy globálisan univerzális DOI azonosítót, amit itt lehet kiprórbálni: http://doi.org/10.6084/m9.figshare.25140095.v1\n\n\n\n@prefix ex: &lt;http://example.org/&gt; .\n@prefix archive: &lt;https://archive.org/details/&gt; .\n@prefix edm: &lt;http://www.europeana.eu/schemas/edm/&gt;\n@prefix flickr: &lt;https://www.flickr.com/photos/&gt;\n@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .\n\n&lt;ex:pstcrdf426c-budapest-national-museum&gt;\n    dc:title \"Nemzeti Múzeum\";\n    a archive:pstcrdf426c-budapest-national-museum\n    edm:isShownAt flickr:197707958@N02/53508120764 .\n\n\nTárolás: archive.org Az archive.org oldalán helyeztem el hosszú távra a képeslapok szkennelt másolatát (nem azonos a képeslappal!). Itt lehet kipróbálni: https://archive.org/details/pstcrdf426c-budapest-national-museum.\n\n\n\n\nMegjelenítés: flickr.com A flickr.com oldalát használom megjelenítésre, mert könnyű például blogokba behelyezni a képek előnézetét. Itt lehet kipróbálni: https://www.flickr.com/photos/197707958@N02/53508120764.\n\n\n\n\nAggregálás: Az Europeana számára érthető, hogy itt lehet megtekinteni a képet: edm:isShownAt flickr:197707958@N02/53508120764. Ne felejtsük le a @prefix flickr: &lt;https://www.flickr.com/photos/&gt; . definíciót!"
+  },
+  {
+    "objectID": "adatgazdasz.html#levelezőlapok-tudás-hozzáadása",
+    "href": "adatgazdasz.html#levelezőlapok-tudás-hozzáadása",
+    "title": "Adatgazdász",
+    "section": "Levelezőlapok: tudás hozzáadása",
+    "text": "Levelezőlapok: tudás hozzáadása\n\nKis privát gyűjteményTTLAutoritásokModell\n\n\nAukción vásárolt régi képeslapok Budapestről. Szkennelve a másolatok feltöltve az archive.org digitális archívumba.\n\n\n\n\n\n\n\n@prefix ex: &lt;http://example.org/&gt; .\n@prefix crm: &lt;http://www.cidoc-crm.org/cidoc-crm/&gt; .\n@prefix archive: &lt;https://archive.org/details/&gt; .\n@prefix aat: &lt;http://vocab.getty.edu/page/aat&gt; .\n@prefix viaf: &lt;http://viaf.org/viaf/&gt;\n@prefix dc: &lt;http://purl.org/dc/terms/&gt;\n@prefix doi: &lt;http://doi.org/&gt;\n@prefix edm: &lt;http://www.europeana.eu/schemas/edm/&gt;\n@prefix flickr: &lt;https://www.flickr.com/photos/&gt;\n@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .\n@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .\n@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .\n@prefix rel: &lt;http://www.perceive.net/schemas/relationship/&gt; .\n\n&lt;ex:pstcrdf426c-budapest-national-museum&gt;\n    dc:title \"Nemzeti Múzeum\";\n    dc:identifier doi:10.6084/m9.figshare.25140095.v1\n    a archive:pstcrdf426c-budapest-national-museum\n    a aat:300026819 ;    # picture postcards in AAT\n    crm:P62depicts &lt;ex:nemzeti-muzeum&gt;\n    edm:isShownAt flickr:197707958@N02/53508120764 .\n\n&lt;ex:nemzeti-muzeum&gt;\n    a viaf:312926811;   # \n    foaf:name \"Nemzeti Múzeum\", \"National Museum\"@en .\n\n\nA tudásra vonatkozó, weben elérhető definíciók meghatározása a prefix részben, például az RDF nyelv használatának a rögzítése rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;\n\n\n\n\nA tudás állítások formájában történő rögzítése: Green Goblin &lt;#green-goblin&gt; ellensége rel:enemyOf Spiderman &lt;#spiderman&gt;.\n\n\n\n\n@prefix ex: &lt;http://example.org/&gt; .\n@prefix crm: &lt;http://www.cidoc-crm.org/cidoc-crm/&gt; .\n@prefix aat: &lt;http://vocab.getty.edu/page/aat&gt; .\n@prefix viaf: &lt;http://viaf.org/viaf/&gt;\n@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .\n@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .\n@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .\n\n&lt;ex:pstcrdf426c-budapest-national-museum&gt;\n    a aat:300026819 ;    # picture postcards in AAT\n    crm:P62depicts &lt;ex:nemzeti-muzeum&gt; .\n\n&lt;ex:nemzeti-muzeum&gt;\n    a viaf:312926811;   # \n    foaf:name \"Nemzeti Múzeum\", \"National Museum\"@en .\n\n\nAAT picture postcard ↗ http://vocab.getty.edu/page/aat/300026819 a képes levelezőlap globális definíciója.\n\n\n\n\nVIAF Magyar nemzeti Múzeum ↗ http://viaf.org/viaf/312926811 : a nemzeti könyvtárak autoritás fájlja a Magyar Nemzeti Múzeum mint intézmény azonosításáról.\n\n\n\n\n@prefix ex: &lt;http://example.org/&gt; .\n@prefix crm: &lt;http://www.cidoc-crm.org/cidoc-crm/&gt; .\n@prefix dc: &lt;http://purl.org/dc/terms/&gt;\n@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .\n@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .\n@prefix rel: &lt;http://www.perceive.net/schemas/relationship/&gt; .\n\n&lt;ex:pstcrdf426c-budapest-national-museum&gt;\n    dc:title \"Nemzeti Múzeum\";\n    dc:identifier doi:10.6084/m9.figshare.25140095.v1\n    crm:P62depicts &lt;ex:nemzeti-muzeum&gt;\n    edm:isShownAt flickr:197707958@N02/53508120764 .\n\n&lt;ex:nemzeti-muzeum&gt;\n    a viaf:312926811;   # \n    foaf:name \"Nemzeti Múzeum\", \"National Museum\"@en .\n\n\nMúzeumi nyilvántartás modellezése: a CIDOC Conceptual Reference Model (CIDOC-CRM) a kulturális örökség nyilvántartásainak modellezését teszi lehetővé. Lásd www.cidoc-crm.org ↗. 2006 óta nemzetközi szavány ISO 21127:2006.\n\n\n\n\nRecords in Contexts–Conceptual Model (RiC-CM): a korábbi nemzetközi archívumi szabványokat [ISAD(G), ISAAR(CPF), ISDF, ISDIAH] felváltó általános modell. Lásd ica.org ↗."
+  },
+  {
+    "objectID": "adatgazdasz.html#wikidata",
+    "href": "adatgazdasz.html#wikidata",
+    "title": "Adatgazdász",
+    "section": "Wikidata",
+    "text": "Wikidata\n\n\n\n\n\n\nTovábbi gyakorlat: Barasits János magyar képeslap-készítő globális azonosítójának az elkészítése - tutorial: Using Wikidata and Wikimedia Commons for Global Identification."
+  },
+  {
+    "objectID": "adatgazdasz.html#wikibase",
+    "href": "adatgazdasz.html#wikibase",
+    "title": "Adatgazdász",
+    "section": "Wikibase",
+    "text": "Wikibase\n\n\n\nAz elte.dh egy Wikibase instance. A Wikibase a Wikidata és a Wikimedia open source megoldása, amit bárki ingyen telepíthet egy szerverre."
+  },
+  {
+    "objectID": "reader.html",
+    "href": "reader.html",
+    "title": "Reader",
+    "section": "",
+    "text": "Bibliography file: wikidata.bib ❔ How to work with bibliographies.\n\n\n\nTutorial on Semantic Web (PDF presentation): The semantic web is a decentralized platform (a layer of the internet) for distributed knowledge (Herman 2012)\n\nFurther reading:\n\nSWBP&D WG Semantic Web Tutorials (Semantic Web Best Practices {and} Deployment Working Group n.d.)\n\n\n\n\nOntology Development 101: A Guide to Creating Your First Ontology An ontology defines a common vocabulary for researchers who need to share information in a domain. It includes machine-interpretable definitions of basic concepts in the domain and relations among them. (Noy and McGuinness 2001)\n\nThe Artificial-Intelligence literature contains many definitions of an ontology; many of these contradict one another. For the purposes of this guide an ontology is a formal explicit description of concepts in a domain of discourse [such as film production] (classes (sometimes called concepts1)), properties of each concept describing various features and attributes of the concept (slots (sometimes called roles or properties2)), and restrictions on slots (facets (sometimes called role restrictions3)). An ontology together with a set of individual instances 4of classes constitutes a knowledge base. In reality, there is a fine line where the ontology ends and the knowledge base begins.\n\n\n\n\nWhat is RDF: RDF is the Word Wide Web (W3C) global standard to encode knowledge, for example, to be distributed on the semantic web layer of the internet.\n\nIn the context of knowledge sharing, I use the term ontology to mean a specification of a conceptualisation. That is, an ontology is a description (like a formal specification of a program) of the concepts and relationships that can exist for an agent or a community of agents. This definition is consistent with the usage of ontology as set-of-concept-definitions, but more general. And it is certainly a different sense of the word than its use in philosophy. Tom Gruber, 1993."
+  },
+  {
+    "objectID": "reader.html#semantic-web-1",
+    "href": "reader.html#semantic-web-1",
+    "title": "Reader",
+    "section": "",
+    "text": "Tutorial on Semantic Web (PDF presentation): The semantic web is a decentralized platform (a layer of the internet) for distributed knowledge (Herman 2012)\n\nFurther reading:\n\nSWBP&D WG Semantic Web Tutorials (Semantic Web Best Practices {and} Deployment Working Group n.d.)"
+  },
+  {
+    "objectID": "reader.html#ontology",
+    "href": "reader.html#ontology",
+    "title": "Reader",
+    "section": "",
+    "text": "Ontology Development 101: A Guide to Creating Your First Ontology An ontology defines a common vocabulary for researchers who need to share information in a domain. It includes machine-interpretable definitions of basic concepts in the domain and relations among them. (Noy and McGuinness 2001)\n\nThe Artificial-Intelligence literature contains many definitions of an ontology; many of these contradict one another. For the purposes of this guide an ontology is a formal explicit description of concepts in a domain of discourse [such as film production] (classes (sometimes called concepts1)), properties of each concept describing various features and attributes of the concept (slots (sometimes called roles or properties2)), and restrictions on slots (facets (sometimes called role restrictions3)). An ontology together with a set of individual instances 4of classes constitutes a knowledge base. In reality, there is a fine line where the ontology ends and the knowledge base begins."
+  },
+  {
+    "objectID": "reader.html#rdf",
+    "href": "reader.html#rdf",
+    "title": "Reader",
+    "section": "",
+    "text": "What is RDF: RDF is the Word Wide Web (W3C) global standard to encode knowledge, for example, to be distributed on the semantic web layer of the internet.\n\nIn the context of knowledge sharing, I use the term ontology to mean a specification of a conceptualisation. That is, an ontology is a description (like a formal specification of a program) of the concepts and relationships that can exist for an agent or a community of agents. This definition is consistent with the usage of ontology as set-of-concept-definitions, but more general. And it is certainly a different sense of the word than its use in philosophy. Tom Gruber, 1993."
+  },
+  {
+    "objectID": "reader.html#functions-of-data-spaces",
+    "href": "reader.html#functions-of-data-spaces",
+    "title": "Reader",
+    "section": "Functions of data spaces",
+    "text": "Functions of data spaces\nAccording to the recommendations of the expert group behind Design Principles for Data Spaces, the following requirements need to to be met by data spaces (Nagel and Lycklama 2021, p26):\n\nData spaces should provide a framework for effective and efficient data exchange, supporting the decoupling of data producers and data consumers. This means they should allow for adoption of common APIs and security schemas, as well as adoption of data models that can be represented in data formats compatible with adopted APIs, for the purpose of sharing and exchanging data.\nData spaces should provide a structure for defining and enforcing agreements on the use of data (including potential monetization of both data provision and data use). This means they should allow for incorporation of capabilities for specifying and publishing data offerings comprising terms and conditions (including pricing) that can be enforced during data exchange transactions.\nData spaces should provide a structure for trustworthiness, in which data consumers and data providers can share their business interests on the basis of common ethical values. This means they should provide security capabilities to protect data ownership aspects as well as business operations, including capabilities for privacy protection that can be engineered and deployed.\nData spaces should provide a structure on the basis of which specific policies and regulations can be supported."
+  },
+  {
+    "objectID": "reader.html#wikidata-and-wikibase",
+    "href": "reader.html#wikidata-and-wikibase",
+    "title": "Reader",
+    "section": "Wikidata and Wikibase",
+    "text": "Wikidata and Wikibase\nWe have a separate tutorial on Wikidata, followed by an extended reader on the use of Wikibase and wikidata in various contexts.\nA crosscounting read is Environmental impact assessment reports in Wikidata and a Wikibase (Nielsen et al. 2023)"
+  },
+  {
+    "objectID": "reader.html#reference-models",
+    "href": "reader.html#reference-models",
+    "title": "Reader",
+    "section": "Reference models",
+    "text": "Reference models\nBibliography: referencemodels.bib\n\nCIDOC-CRM: The CIDOC Conceptual Reference Model (CRM) is a theoretical and practical tool for information integration in the field of cultural heritage. See www.cidoc-crm.org. Since 9/12/2006 it is official standard ISO 21127:2006. CIDOC CRM Tutorial.\nRiC-CM: RiC-CM reconciles, integrates, builds on, and replaces the four existing standards: General International Standard Archival Description (ISAD(G)); International Standard Archival Authority Records–Corporate Bodies, Persons, and Families (ISAAR(CPF)); International Standard Description of Functions (ISDF); and International Standard Description of Institutions with Archival Holdings (ISDIAH). (International Council on Archives Expert Group on Archival Description 2023)\nEDM: The documentation you need about the Europeana Data Model (EDM).\nDublin Core/DCTERMS:\n\nSee also CRITERIA."
+  },
+  {
+    "objectID": "reader.html#definitions",
+    "href": "reader.html#definitions",
+    "title": "Reader",
+    "section": "Definitions",
+    "text": "Definitions\n\nAAT:\nVIAF:"
+  },
+  {
+    "objectID": "reader.html#footnotes",
+    "href": "reader.html#footnotes",
+    "title": "Reader",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nSuch as Human, Film, Location.↩︎\nSuch as line producer for Human, or title for Film or for Location, a streed Adress.↩︎\nSuch as a line producer cannot be an actor, the film title can have language versions, or a street address must have a postal code.↩︎\nIn a knowledge base of the Godfather trilogy as a universe, Francis Ford Coppola is a Human in the role of a director, The Godfather Part II is a title of a film in the knowledge base, and 228 West 47th Sttreet, New York, NY 10036, USA is a filming location (the Hotel Edison, which is a Place), and it indeed has a postal code, i.e. NY 10036.↩︎"
+  }
+]

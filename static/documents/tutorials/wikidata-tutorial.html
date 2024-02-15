@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-GB" xml:lang="en-GB"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.433">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Daniel Antal">
+<meta name="dcterms.date" content="2024-02-15">
+<meta name="keywords" content="Wikidata, Wikimedia Commons, QID">
+
+<title>Readers &amp; Tutorials - Wikidata</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Readers &amp; Tutorials</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html" rel="" target="">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./Reader.qmd" rel="" target="">
+ <span class="menu-text">Reader</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./personal-tools.html" rel="" target="">
+ <span class="menu-text">Personal Tools</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./wikidata-tutorial.html" rel="" target="" aria-current="page">
+ <span class="menu-text">Wikidata</span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools ms-auto">
+    <div class="dropdown">
+      <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label=""><i class="bi bi-linkedin"></i></a>
+      <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item quarto-navbar-tools ms-auto-item" href="https://www.linkedin.com/in/antaldaniel/">
+            Daniel Antal
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item quarto-navbar-tools ms-auto-item" href="https://www.linkedin.com/company/68855596/">
+            Reprex
+            </a>
+          </li>
+      </ul>
+    </div>
+    <div class="dropdown">
+      <a href="" title="" id="quarto-navigation-tool-dropdown-1" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label=""><i class="bi bi-github"></i></a>
+      <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="quarto-navigation-tool-dropdown-1">
+          <li>
+            <a class="dropdown-item quarto-navbar-tools ms-auto-item" href="https://github.com/dataobservatory-eu/opencollections-tutorials">
+            Source Code
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item quarto-navbar-tools ms-auto-item" href="https://github.com/dataobservatory-eu/opencollections-tutorials/issues">
+            Report an Error
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item quarto-navbar-tools ms-auto-item" href="https://github.com/dataobservatory-eu/opencollections-tutorials/issues">
+            Request Improvements
+            </a>
+          </li>
+      </ul>
+    </div>
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#global-identities" id="toc-global-identities" class="nav-link active" data-scroll-target="#global-identities">Global Identities</a></li>
+  <li><a href="#create-a-wikidata-item" id="toc-create-a-wikidata-item" class="nav-link" data-scroll-target="#create-a-wikidata-item">Create a Wikidata Item</a></li>
+  <li><a href="#upload-to-wikimedia-commons" id="toc-upload-to-wikimedia-commons" class="nav-link" data-scroll-target="#upload-to-wikimedia-commons">Upload to Wikimedia Commons</a></li>
+  <li><a href="#linking-knowledge" id="toc-linking-knowledge" class="nav-link" data-scroll-target="#linking-knowledge">Linking Knowledge</a></li>
+  <li><a href="#wikidata-reader" id="toc-wikidata-reader" class="nav-link" data-scroll-target="#wikidata-reader">Further reading</a></li>
+  </ul>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="wikidata-tutorial.epub"><i class="bi bi-file"></i>ePub</a></li><li><a href="wikidata-tutorial.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li><li><a href="wikidata-tutorial.docx"><i class="bi bi-file-word"></i>MS Word</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Wikidata</h1>
+<p class="subtitle lead">Tutorial: Using Wikidata and Wikimedia Commons for Global Identification</p>
+</div>
+
+
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Author</div>
+  <div class="quarto-title-meta-heading">Affiliations</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author"><a href="https://reprex.nl/author/daniel-antal/">Daniel Antal</a> <a href="https://orcid.org/0000-0001-7513-6760" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+  </div>
+    <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            <a href="https://reprex.nl/">
+            Reprex
+            </a>
+          </p>
+        <p class="affiliation">
+            <a href="https://opencollections.net/">
+            OpenCollections
+            </a>
+          </p>
+      </div>
+    </div>
+
+<div class="quarto-title-meta">
+
+      
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">15 February 2024</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="global-identities" class="level2">
+<h2 class="anchored" data-anchor-id="global-identities">Global Identities</h2>
+<p>In this tutorial, I will follow up on the publication of a scanned postcard by <code>Barasits</code>. Mr and Mrs Barasits, a.k.a. János Barasits (1859-1935) and his wife, Barasits, Jánosné, born Pichler, Kornélia, were prominent postcard producers and publishers at the beginning of the 20th century. There are plenty of beautiful postcards available from them.</p>
+<p>In the 1920s and 1930s, the authors’ right (~copyright) protection of photographs and postcards was relatively short, only 15 years, so their postcards went into the public domain in terms of copying long ago.</p>
+<p>Unfortunately, I did not find their name in the most commonly used authority controls, i.e., neither in VIAF nor ISNI. Writing to VIAF is only possible via member institutions, and ISNI costs money. As a temporary solution, I create a Wikidata QID for János Barakovits until somebody registers his name into VIAF.</p>
+<p>Writing in Wikidata is free for all and subject to community review. If you read this tutorial, please pledge to record new persons (or other items) into Wikidata if your knowledge is solid. You can verify the information with research.</p>
+<p>After creating a QID for János Barakovics, we uploaded one of their family business’s public domain works onto Wikimedia Commons, then to archive.org and Flickr.</p>
+</section>
+<section id="create-a-wikidata-item" class="level2">
+<h2 class="anchored" data-anchor-id="create-a-wikidata-item">Create a Wikidata Item</h2>
+<p>In this tutorial you will learn how to create a new entry on Wikidata.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="png/wikidata-tutorial/wikidata-create-new-item-Janos-Barasits-20240204.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Create a Wikidata entry (and page) for a Thing (including a fictional, deceased or living person) on Wikidata.</figcaption>
+</figure>
+</div>
+<p>Wikidata is used all over the world to connect and refine knowledge. Do not pollute the system with half-baked ideas, ill-researched items. There are many test and learning environments called <a href="https://www.wikidata.org/w/index.php?title=Wikidata:Sandbox&amp;veaction=edit">sandboxes</a> for practicing. You should only write into Wikidata when you are absolutely certain about your facts.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="png/wikidata-tutorial/wikidata-create-new-item-Janos-Barasits-20240204-2.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">On the graphical user interface (GUI) you will be instructed to give out the most basic details of this new entry.</figcaption>
+</figure>
+</div>
+<p>Add a few, basic statements to your new item, for example, the János Barasits is a human, he was male, born in 1859 (with the precision of a year only) and died in 1935.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="png/wikidata-tutorial/wikidata-create-new-item-Janos-Barasits-20240204-3.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">You do not need to know property identifiers and any code to work in the GUI.</figcaption>
+</figure>
+</div>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="png/wikidata-tutorial/wikidata-create-new-item-Janos-Barasits-20240204-3.png" class="img-fluid figure-img" width="542"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Here is a very basic Wikidata page for <a href="https://www.wikidata.org/wiki/Q124423018">János Barasits</a>. What is very important that we have a globally unique identifier, <code>Q124423018</code> that uniquely identifies him as a human. Later, when somebody creates a VIAF or ISNI identifier for him, we can connect this Wikidata page (i.e., <a href="https://www.wikidata.org/wiki/Q124423018">Q124423018</a>) to those authority files.</p>
+</section>
+<section id="upload-to-wikimedia-commons" class="level2">
+<h2 class="anchored" data-anchor-id="upload-to-wikimedia-commons">Upload to Wikimedia Commons</h2>
+<p>You will face a rights notice: you can only upload files where you are the author and give a free cultural license, or you know that that the image is in the public domain.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="png/wikidata-tutorial/wikimedia-upload-new-item-20240204-1.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Only upload images if you are absolutely certain that you are not infringing anybody’s copyright.</figcaption>
+</figure>
+</div>
+<p>Give a meaningful identifier (unique part of the future URL of the image.) It is a good idea to use a filename that refers back to your catalogue, in this case, I use:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="png/wikidata-tutorial/wikimedia-upload-new-item-20240204-2.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">You should use a good identifier, for example, your own file name or local database ID</figcaption>
+</figure>
+</div>
+<p>Now it is time to describe the uploaded item. In this page, I am giving it an English and a Hungarian title, for example, which is the same as it is found in the inventory book and the catalogue:</p>
+<p><img src="png/wikidata-tutorial/wikimedia-upload-new-item-20240204-3.png" class="img-fluid" alt="You can describe your new item in multiple languages with the GUI"> Now we can add more semantic information about the image. We describe with existing Wikidata entries what is <em>known</em> about this postcard. For example, here I state that it describes Margaret island, the <em>Margaret Island</em> (<a href="https://www.wikidata.org/wiki/Q18816">Q18816</a>) tramstop on the Margaret Bridge; furthermore, I connect the image to the previously created <em>János Barasits</em> (<a href="https://www.wikidata.org/wiki/Q124423018">Q124423018</a>) item.</p>
+<p><img src="png/wikidata-tutorial/wikimedia-upload-new-item-20240204-4.png" class="img-fluid"></p>
+</section>
+<section id="linking-knowledge" class="level2">
+<h2 class="anchored" data-anchor-id="linking-knowledge">Linking Knowledge</h2>
+<p>What happened here? We did not simply connect a very basic biography, a scanned vintage postcard and a database entry about a bridge. We linked together in machine-readable (and human readable) form knowledge about a person, his work, and the depicted small island; not only a string, i.e., the name of the island, but</p>
+<ul>
+<li>the name of the island in many languages;</li>
+<li>an encyclopedical description of the island in many languages;</li>
+<li>a geocoded location;</li>
+<li>identifiers in the global library catalog linking system VIAF, the catalogue identifiers of the national libraries of the U.S. and Israel that hold information carriers (most likely, books) about the island.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="png/wikidata-tutorial/wikimedia-link-item-20240204-1.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Under the hood, Wikidata starts to connect a lot of knowledge to the information you have entered, for example, adds GIS geographical information to the location information you entered automatically.</figcaption>
+</figure>
+</div>
+<p>And of course, we created a simple, graphical user interface where people and machines can start to add and link more knowledge about János Barasits.</p>
+</section>
+<section id="wikidata-reader" class="level2">
+<h2 class="anchored" data-anchor-id="wikidata-reader">Further reading</h2>
+<p><strong>Bibliography file</strong>: <a href="https://raw.githubusercontent.com/dataobservatory-eu/opencollections-tutorials/main/bib/wikidata.bib">wikidata.bib</a></p>
+<ul>
+<li><p><em>Wikidata: From “an” Identifier to “the” Identifier</em>: using Wikidata QID as global URI for identifying things <span class="citation" data-cites="van_veen_wikidata_2019">(<a href="#ref-van_veen_wikidata_2019" role="doc-biblioref">Veen 2019</a>)</span> .</p></li>
+<li><p><em>Beyond VIAF: Wikidata as a Complementary Tool for Authority Control in Libraries</em>: use of Wikidata for librarians - <span class="citation" data-cites="bianchini_beyond_2021">(<a href="#ref-bianchini_beyond_2021" role="doc-biblioref">Bianchini, Bargioni, and Pellizzari di San Girolamo 2021</a>)</span></p></li>
+<li><p><em>Beyond the Fountain: Mapping a New Entry Point to the Society of Independent Artists</em>: use of Wikidata for private collections and communities <span class="citation" data-cites="siler_beyond_2022">(<a href="#ref-siler_beyond_2022" role="doc-biblioref">Siler 2022</a>)</span></p></li>
+<li><p><em>Bulgarian Icons in Wikidata and EDM</em>: Reconciliation between Wikidata and the Europeana Data Model <span class="citation" data-cites="alexiev_bulgarian_2020">(<a href="#ref-alexiev_bulgarian_2020" role="doc-biblioref">Alexiev et al. 2020</a>)</span></p></li>
+<li><p><em>Wikidata: a new perspective towards universal bibliographic control</em> <span class="citation" data-cites="sardo_wikidata_2022">(<a href="#ref-sardo_wikidata_2022" role="doc-biblioref">Sardo and Bianchini 2022</a>)</span>.</p></li>
+<li><p><em>Wikidata and Wikibase as complementary research data management services for cultural heritage data</em>: use in cultural heritage <span class="citation" data-cites="rossenova_wikidata_2022">(<a href="#ref-rossenova_wikidata_2022" role="doc-biblioref">Rossenova, Duchesne, and Blümel 2022</a>)</span></p></li>
+<li><p><em>Wikidata for authority control: sharing museum knowledge with the world</em>: the use of Wikidata in museums. <span class="citation" data-cites="fagerving_wikidata_2023">(<a href="#ref-fagerving_wikidata_2023" role="doc-biblioref">Fagerving 2023</a>)</span></p></li>
+<li><p><em>Providing sustainable data services through Wikibase and Wikidata</em>: use cases from Europe <span class="citation" data-cites="semic_2020_providing_2020">(<a href="#ref-semic_2020_providing_2020" role="doc-biblioref">2020 2020</a>)</span></p></li>
+<li><p><em>Environmental impact assessment reports in Wikidata and a Wikibase</em> <span class="citation" data-cites="nielsen_environmental_2023">(<a href="#ref-nielsen_environmental_2023" role="doc-biblioref">Nielsen et al. 2023</a>)</span></p></li>
+</ul>
+
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-semic_2020_providing_2020" class="csl-entry" role="listitem">
+2020, SEMIC. 2020. <span>‘Providing Sustainable Data Services Through Wikibase and Wikidata’</span>. <a href="https://joinup.ec.europa.eu/sites/default/files/custom-page/attachment/2020-11/Parallel-track-4_B-Fischer_J-Thill_A-Angjeli%20final%20ppt.pdf">https://joinup.ec.europa.eu/sites/default/files/custom-page/attachment/2020-11/Parallel-track-4_B-Fischer_J-Thill_A-Angjeli%20final%20ppt.pdf</a>.
+</div>
+<div id="ref-alexiev_bulgarian_2020" class="csl-entry" role="listitem">
+Alexiev, Vladimir, Plamen Tarkalanov, Nikola Georgiev, and Lilia Pavlova. 2020. <span>‘Bulgarian Icons in Wikidata and <span>EDM</span>’</span>. <em>Digital Presentation and Preservation of Cultural and Scientific Heritage</em> 10: 45–63. <a href="https://doi.org/10.55630/dipp.2020.10.2">https://doi.org/10.55630/dipp.2020.10.2</a>.
+</div>
+<div id="ref-bianchini_beyond_2021" class="csl-entry" role="listitem">
+Bianchini, Carlo, Stefano Bargioni, and Camillo Carlo Pellizzari di San Girolamo. 2021. <span>‘Beyond <span>VIAF</span> Wikidata as a Complementary Tool for Authority Control in Libraries’</span>. <em>Information Technology and Libraries</em> 40 (2). <a href="https://doi.org/10.6017/ital.v40i2.12959">https://doi.org/10.6017/ital.v40i2.12959</a>.
+</div>
+<div id="ref-fagerving_wikidata_2023" class="csl-entry" role="listitem">
+Fagerving, Alicia. 2023. <span>‘Wikidata for Authority Control: Sharing Museum Knowledge with the World’</span>. <em>Digital Humanities in the Nordic and Baltic Countries Publications</em> 5 (1): 222–39. <a href="https://doi.org/10.5617/dhnbpub.10665">https://doi.org/10.5617/dhnbpub.10665</a>.
+</div>
+<div id="ref-nielsen_environmental_2023" class="csl-entry" role="listitem">
+Nielsen, Finn Årup, Ivar Lyhne, Darío Garigliotti, Annika Butzbach, Emilia Ravn Boess, Katja Hose, and Lone Kørnøv. 2023. <span>‘Environmental Impact Assessment Reports in Wikidata and a Wikibase: Semantic Technologies for Scientific, Technical and Legal Data 2023’</span>. <em>Proceedings of the Semantic Technologies for Scientific, Technical and Legal Data 2023</em>, <span>CEUR</span> workshop proceedings, 3443.
+</div>
+<div id="ref-rossenova_wikidata_2022" class="csl-entry" role="listitem">
+Rossenova, Lozana, Paul Duchesne, and Ina Blümel. 2022. <span>‘Wikidata and Wikibase as Complementary Research Data Management Services for Cultural Heritage Data’</span>. In <em><span>CEUR</span> Workshop Proceedings</em>. <a href="https://serwiss.bib.hs-hannover.de/frontdoor/deliver/index/docId/2573/file/rossenova_etal2022-wikidata_research_data_mgmt.pdf">https://serwiss.bib.hs-hannover.de/frontdoor/deliver/index/docId/2573/file/rossenova_etal2022-wikidata_research_data_mgmt.pdf</a>.
+</div>
+<div id="ref-sardo_wikidata_2022" class="csl-entry" role="listitem">
+Sardo, Lucia, and Carlo Bianchini. 2022. <span>‘Wikidata: A New Perspective Towards Universal Bibliographic Control’</span>. <em><span>JLIS</span>.it : Italian Journal of Library and Information Science</em> 13 (1): 291–311. <a href="https://doi.org/10.4403/jlis.it-12725">https://doi.org/10.4403/jlis.it-12725</a>.
+</div>
+<div id="ref-siler_beyond_2022" class="csl-entry" role="listitem">
+Siler, M. 2022. <span>‘Beyond the Fountain: Mapping a New Entry Point to the Society of Independent Artists’</span>. <em>Art Documentation</em> 41 (2): 219–41. <a href="https://doi.org/10.1086/722172">https://doi.org/10.1086/722172</a>.
+</div>
+<div id="ref-van_veen_wikidata_2019" class="csl-entry" role="listitem">
+Veen, Theo van. 2019. <span>‘Wikidata: From <span>“an”</span> Identifier to <span>“the”</span> Identifier’</span>. <em>Information Technology and Libraries</em> 38 (2): 72–81. <a href="https://doi.org/10.6017/ital.v38i2.10886">https://doi.org/10.6017/ital.v38i2.10886</a>.
+</div>
+</div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
